@@ -1,0 +1,1276 @@
+Column;de;en
+armortype_atfortified;Verstärkt;Fortified
+armortype_atfortified_hint;- Verstärkte Rüstung -\nErhält 400% Schaden durch Belagerungswaffen.;- Fortified Armor -\nGains 400% damage from siege units.
+armortype_atfortified_caption;0%;0%
+armortype_atheavy;Schwer;Heavy
+armortype_atheavy_hint;- Schwere Rüstung -\nErhält aus allen Quellen 30% verminderten Schaden und reduziert ihn danach zusätzlich um 5. Der Schaden kann maximal auf 1 reduziert werden.;- Heavy Armor -\nReduces all damage by 30% and additionally by 5. Damage can only be reduced to 1 at max.
+armortype_atheavy_caption;30% (+5);30% (+5)
+armortype_atlight;Leicht;Light
+armortype_atlight_hint;- Leichte Rüstung -\nErhält aus allen Quellen 15% verminderten Schaden.;- Light Armor -\nReduces all damage by 15%.
+armortype_atlight_caption;15%;15%
+armortype_atmedium;Mittelstark;Medium
+armortype_atmedium_hint;- Mittelstarke Rüstung -\nErhält von Fernkämpfern 30%, ansonsten 20% verminderten Schaden.;- Medium Armor -\nReduces all ranged damage by 30% and any other damage by 20%.
+armortype_atmedium_caption;20% (30%);20% (30%)
+armortype_atunarmored;Keine;Unarmored
+armortype_atunarmored_hint;- Keine Rüstung -\nBekommt aus allen Quellen unverändert Schaden.;- Unarmored -\nDoesn't reduce any incoming damage.
+armortype_atunarmored_caption;0%;0%
+damagetype_dtmelee_hint;- Nahkampfangriff -\nDiese Einheit bekämpft Einheiten im Nahkampf.;- Melee Attack -\nThis unit fights enemies within Melee range.
+damagetype_dtranged_hint;- Fernkampfangriff -\nDiese Einheit bekämpt Einheiten auf Distanz.;- Ranged Attack -\nThis unit fights enemies from a distance.
+damagetype_dtsiege_hint;- Belagerungsschaden -\nDiese Einheit ist besonders effektiv gegen Gebäude und teilt vierfachen Schaden gegen Verstärkte Rüstung aus.;- Siege Damage- \nThis unit is most efficient against buildings, dealing quadruple damage against fortified armor.
+dps;Schaden pro Sekunde. Fügt %s Schaden alle %s Sekunden über eine Distanz von %s zu.;Damage per second. Deals %s damage every %s second within a range of %s.
+dps_melee;Schaden pro Sekunde. Fügt %s Schaden alle %s Sekunden im Nahkampf zu.;Damage per second. Deals %s damage every %s second within melee range.
+melee;Nahkampf;Melee
+indestructible;Unzerstörbar;Indestructible
+indestructiblehint;Unzerstörbare Entitäten nehmen keinen Schaden und können nicht zerstört werden.;Indestructible units can't take damage and can't be destroyed.
+;;
+card_tier;Stufe;Stage
+;;
+card_name_aegis;Aegis IX, Die Letzte Bastion;Aegis IX, The Last Frontier 
+card_name_ammorefill;Nachladen;Reload
+card_description_ammorefill;Lädt die Munition des verbündeten Ziels nach. Die Menge orientiert sich an der Phase des Ziels.\n  Phase I - 100%\n  Phase II - 50%\n  Phase III - 25%\n  Legendär - 25%\n  Basisgebäude - 20%;Reloads the targeted ally with ammunition. The amount depends on the target's stage.\n  Stage I - 100%\n  Stage II - 50%\n  Stage III - 25%\n  Legendary - 25%\n  Base buildings - 20%
+card_short_description_ammorefill;Lädt die Munition des verbündeten Ziels nach.;Refills the targeted ally with ammunition.
+card_name_archer;Bogenschütze;Archer
+card_name_archer_drop;Bogenschützen;Archers
+card_name_archer_spawner;Bogenschützen-Spawner;Archers Spawner
+card_name_avenger;Rächer;Avenger
+card_name_avenger_drop;Rächer;Avengers
+card_name_avenger_spawner;Rächer-Spawner;Avengers Spawner
+card_name_ballista;Balliste;Ballista
+card_name_ballista_spawner;Ballisten-Spawner;Ballista Spawner
+card_name_basetower;Basisturm;Basetower
+card_name_bigcastergolem;Kristallcrescendo;Crystal Crescendo
+card_name_bigcastergolem_drop;Kristallcrescendo;Crystal Crescendo
+card_name_bigcastergolem_spawner;Kristallcrescendo-Spawner;Crystal Crescendo Spawner
+card_name_bigflyinggolem;Kristallaufseher;Crystal Overseer
+card_name_bigflyinggolem_drop;Kristallaufseher;Crystal Overseer
+card_name_bigflyinggolem_spawner;Kristallaufseher-Spawner;Crystal Overseer Spawner
+card_name_biggolemtower;Kristalltempel;Crystal Temple
+card_name_bigmeleegolem;Granitfürst;Granite Chieftain
+card_name_bigmeleegolem_drop;Granitfürst;Granite Chieftain
+card_name_bigmeleegolem_spawner;Granitfürst-Spawner;Granite Chieftain Spawner
+card_name_bossgolem;Granithüter;Granite Guardian
+card_name_bossgolemsurvival;Granitweltenbrecher;Granite Worldbreaker
+card_name_bosssiegegolemtutorial;Granitweltenbrecher;Granite Worldbreaker
+card_name_bosssiegegolemattack;Granitweltenbrecher;Granite Worldbreaker
+card_name_bosssiegegolemattackduo;Granitweltenbrecher;Granite Worldbreaker
+card_name_brratu;Brratu, Bewahrer der Natur;Brratu, Keeper of Nature
+card_name_defender;Lothar, Wall des Lichts;Lothar, Wall of Light
+card_name_defender_spawner;Lothar, Wall des Lichts-Spawner;Lothar, Wall of Light Spawner
+card_name_entanglingroots;Wucherwurzeln;Entangling Roots
+card_description_entanglingroots;Verwurzelt bis zu 12 gegnerische Einheiten. §effect_root_description;Roots up to 12 enemy targets for 15 seconds. §effect_root_description
+card_short_description_entanglingroots;Verwurzelt gegnerische Einheiten für eine kurze Zeit.;Roots enemy targets for a short time.
+card_name_evolveoracle;Evolution: Orakel;Evolve: Oracle
+card_description_evolveoracle;Lässt einen verbündeten Saatling zu einem Orakel mit heranwachsen. Da die Transformation sehr kräftezehrend ist, entsteht es nur mit 40% Leben.;Evolves an allied Sapling into an Oracle. As the transformation is very debilitating, it is summoned with only 40% health.
+card_short_description_evolveoracle;Lässt einen verbündeten Saatling zu einem Orakel heranwachsen.;Evolves an allied Sapling into an Oracle. 
+card_name_evolvethistle;Evolution: Distel;Evolve: Thistle
+card_description_evolvethistle;Lässt bis zu 6 verbündete Saatlinge zu Disteln heranwachsen.;Evolve up to 6 allied Saplings into Thistles.
+card_short_description_evolvethistle;Lässt bis zu 6 verbündete Saatlinge zu Disteln heranwachsen.;Evolve up to 6 allied Saplings into Thistles.
+card_name_footman;Fußsoldat;Footman
+card_name_footman_drop;Fußsoldaten;Footmen
+card_name_footman_spawner;Fußsoldaten-Spawner;Footmen Spawner
+card_name_forestguardian;Wächter des Waldes;Forest Guardian
+card_name_freeze;Kältesturz;Freeze
+card_description_freeze;Lässt bis zu 10 gegnerische Einheiten gefrieren. §effect_frozen_description;Freezes up to 10 enemy units. §effect_frozen_description
+card_short_description_freeze;Lässt bis zu 10 gegnerische Einheiten gefrieren.;Freezes up to 10 enemy units.
+card_name_frenzy;Raserei;Frenzy
+card_description_frenzy;Eine verbündete Einheit verfällt in Raserei und verdoppelt ihre Angriffsgeschwindigkeit für 20 Sekunden. Nahkämpfer heilen sich zusätzlich für jeden Angriff um 20 und Fernkämpfer können ein zusätzliches Ziel angreifen. Nach Ablauf der Zeit stirbt sie.;An allied unit is frenzied, doubling its attack speed for 20s. Melee units heal themselves for each attack by 20 and ranged units can attack one more target. Afterwards the unit dies.
+card_short_description_frenzy;Eine verbündete Einheit verfällt in Raserei für 20 Sekunden.;An allied unit is frenzied for 20 seconds.
+card_name_frostgoyle;Frostspeier;Frostgoyle
+card_name_frostgoyle_drop;Frostspeier;Frostgoyles
+card_name_frostgoyle_spawner;Frostspeier-Spawner;Frostgoyles Spawner
+card_name_frostgoylefountain;Frostspeierfontäne;Frostgoyle Fountain
+card_name_frostspear;Frostschock;Frost Shock
+card_description_frostspear;Eine eingefrorene Einheit erhält 250 Schaden. Wenn sie überlegt, werden 30 Gold zurückerstattet.;A frozen unit is dealt 250 damage. If it survives 30 gold is refunded.
+card_short_description_frostspear;Fügt einer gefrorenen Einheit Schaden zu. Erstattet Gold, wenn sie überlebt.;Deals high damage to a frozen unit. Refunds gold if it survives.
+card_name_gatlingdrone;Gatlingdrohne;Gatlingdrone
+card_name_gatlingdrone_drop;Gatlingdrohne;Gatlingdrone
+card_name_gatlingdrone_spawner;Gatlingdrohnen-Spawner;Gatlingdrone Spawner
+card_name_gatlingturret;Gatlinggeschütz;Gatlingturret
+card_name_giantgrowth;Riesenwuchs;Giant Growth
+card_description_giantgrowth;Lässt eine verbündete Einheit wachsen. Sie erhöht ihre maximalen Leben um 220 und regeneriert 2% ihrer maximalen Leben pro Sekunde. Hält 20 Sekunden an.;Increases the maximum health by 220 of one targeted allied unit and regenerates it by 2% of its maximum health per second for 20 seconds.
+card_short_description_giantgrowth;Erhöht die Leben einer verbündeten Einheit und regeneriert sie für eine kurze Zeit.;Increases the maximum health of one targeted allied unit and regenerates it for a short time.
+card_name_GolemLaneTowerLevel1;Kristallaußenposten;Crystal Outpost
+card_name_GolemLaneTowerLevel2;Kristallwachturm;Crystal Guardtower
+card_name_GolemLaneTowerLevel3;Kristallbollwerk;Crystal Bulwark
+card_name_hailofarrows;Pfeilhagel;Hail of Arrows
+card_description_hailofarrows;Schießt 3 Wellen von Pfeilen auf das Zielgebiet. Gegnerische Einheiten nehmen pro Welle 11 Schaden. Für jeden in der Nähe befindlichen Bogenschützen wird eine zusätzliche Welle abgefeuert.;Fires 2 waves of arrows each dealing 11 damage to all enemy units in range. An additional wave of arrows is fired for each additional Archer nearby.
+card_short_description_hailofarrows;Schießt, unterstützt durch nahe Bogenschützen, Pfeilwellen auf das Zielgebiet.;Fires waves of arrows onto target area. Nearby Archers enhance this effect.
+card_name_healinggarden;Puls des Waldes;Pulse of the Forest
+card_description_healinggarden;Regeneriert in 10 Wellen alle verbündeten Einheiten in Reichweite um 5% ihrer maximalen Leben pro Welle.;Emits 10 waves which regenerates all allied units for 5% of their maximum health per wave.
+card_short_description_healinggarden;Regeneriert in Wellen entsprechend der Maximalleben.;Regenerates all units in an area in waves.
+card_name_heartoftheforest;Herz des Waldes;Heart of the Forest
+card_name_heartoftheforest_spawner;Herz des Waldes-Spawner;Heart of the Forest Spawner
+card_name_heavygunner;Kanonier;Heavy Gunner
+card_name_heavygunner_drop;Kanonier;Heavy Gunner
+card_name_heavygunner_spawner;Kanonier-Spawner;Heavy Gunner Spawner
+card_name_highheli;Unterdrücker;Oppressor
+card_name_highheli_drop;Unterdrücker;Oppressor
+card_name_highheli_spawner;Unterdrücker-Spawner;Oppressor Spawner
+card_name_lanenode;Eroberungspunkt;Capture Point
+card_description_lanenode;Wenn ausschließlich Einheiten eines Teams sich im Bereich des Eroberungspunkt befinden, wird dieser für das Team eingenommen und mit einem leichten Wehrturm befestigt. Wenn der Wehrturm fällt kann der Punkt erneut von beiden Teams erobert werden, ist aber für 60 Sekunden für den vorherigen Besitzer gesperrt.;If only units of any one team are in range of the capture point, it is captured and will fortified with a light guard tower. If a guard tower is destroyed, the point can be captured again from both teams, but is locked for 60 seconds for the former owner.
+card_name_lanetowerlevel1;Leichter Wehrturm;Light Guard Tower
+card_name_lanetowerlevel2;Wehrturm;Guard Tower
+card_name_lanetowerlevel3;Schwerer Wehrturm;Heavy Guard Tower
+card_name_lightpulse;Lichtimpuls;Light Pulse
+card_description_lightpulse;Betäubt und blendet bis zu 12 gegnerische Einheiten im Zielbereich für 15 Sekunden. §effect_stunned_description §effect_blind_description;Stuns and blinds up to 12 enemy units for 15 seconds. §effect_stunned_description §effect_blind_description
+card_short_description_lightpulse;Betäubt und blendet bis zu 12 gegnerische Einheiten im Zielbereich.;Stuns and blinds up to 12 enemy units.
+card_name_marksman;Scharfschütze;Marksman
+card_name_marksman_drop;Scharfschütze;Marksman
+card_name_marksman_spawner;Scharfschützen-Spawner;Marksman Spawner
+card_name_mediummeleegolem;Granitvorhut;Granite Vanguard
+card_name_mediummeleegolem_drop;Granitvorhut;Granite Vanguards
+card_name_mediummeleegolem_spawner;Granitvorhut-Spawner;Granite Vanguard Spawner
+card_name_meleegolemtower;Granitwache;Granite Bouncer
+card_name_missileturret;Raketenwerfer;Missileturret
+card_name_monk;Mönch;Monk
+card_name_monk_drop;Mönch;Monk
+card_name_monk_spawner;Mönch-Spawner;Monk-Spawner
+card_name_monumentoflight;Monument des Lichts;Monument of Light
+card_name_nexuslevel1;Nexus;Nexus
+card_name_nexuslevel2;Nexus;Nexus
+card_name_nexuslevel3;Nexus;Nexus
+card_name_oracle;Orakel;Oracle
+card_name_oracle_drop;Orakel;Oracle
+card_name_oracle_spawner;Orakel-Spawner;Oracle Spawner
+card_name_patronsaint;Selga, Schutzpatronin des Lichts;Selga, Patron Saint of Light
+card_name_patronsaint_drop;Selga, Schutzpatronin des Lichts;Selga, Patron Saint of Light
+card_name_patronsaint_spawner;Selga, Schutzpatronin des Lichts-Spawner;Selga, Patron Saint of Light Spawner
+card_name_permafrost;Tieffrieren;Permafrost
+card_description_permafrost;Gefriert eine Einheit permanent. Sie reduziert jeglichen eintreffenden Schaden um 60%, kann nicht geheilt werden und erhält jede Sekunde Schaden in Höhe von 5% ihrer maximalen Leben durch Gefrierbrand.;Freezes a unit permanently. Reduces all incoming damage by 60%, makes it unhealable and receives every second 5% of its maximum health as damage by frostbite.
+card_short_description_permafrost;Gefriert eine Einheit permanent und macht sie sehr zäh.;Freezes a unit permanently making it very tough.
+card_name_priest;Priester;Priest
+card_name_priest_drop;Priester;Priest
+card_name_priest_spawner;Priester-Spawner;Priest Spawner
+card_name_promiseoflife;Schild des Lichts;Promise of Life
+card_description_promiseoflife;Platziert ein Schild aus Licht auf bis zu 10 verbündeten Einheiten im Zielbereich und schützt sie 30 Sekunden lang. §effect_guarded_description;Places a shield on up to 10 allied units in range to guard them for 30 seconds. §effect_guarded_description
+card_short_description_promiseoflife;Beschützt verbündete Einheiten mit Unbesiegbarkeit einmalig vor dem Tod.;Prevent allied units from dying once with a invincible shield.
+card_name_ripoutsoul;Seelenmahlstrom;Soul Maelstrom
+card_description_ripoutsoul;Setzt die Seele von bis zu 10 Einheiten im Zielgebiet frei, macht sie seelenlos und fügt ihnen zusätzlich Schaden in Höhe von 25% ihrer maximalen Leben zu. §effect_soulless_description;Extracts the soul of up to 10 units in target area, makes them soulless and additionally deals 25% of their maximum health as damage. §effect_soulless_description
+card_short_description_ripoutsoul;Setzt die Seele von Einheiten frei und fügt ihnen Schaden zu.;Extracts the souls of units and deals damage.
+card_name_rootdude;Eichenbotschafter;Oak Ambassador
+card_name_rootdude_drop;Eichenbotschafter;Oak Ambassador
+card_name_rootdude_spawner;Eichenbotschafter-Spawner;Oak Ambassador Spawner
+card_name_rootling;Wurzling;Rootling
+card_name_rootling_drop;Wurzling;Rootling
+card_name_rootling_spawner;Wurzling-Spawner;Rootling Spawner
+card_name_sapling;Saatling;Sapling
+card_name_saplingcharge;Sturm der Saatlinge;Sapling Charge
+card_description_saplingcharge;Beschwört einmalig 15 Saatlinge und zusätzlich brechen jeweils 5 Saatlinge in 11 Wellen aus dem Boden hervor. Saatlinge leben nur 17 Sekunden lang. Jeder Spieler kann nur eine legendäre Karte zur gleichen Zeit auf dem Schlachtfeld aktiv haben.;Summons 15 Saplings on cast and an additional 5 for 11 Waves. (Saplings lifetime is limited to 17 seconds) Each player can only have one legendary card active at the same time.
+card_short_description_saplingcharge;Legendär. Beschwört eine Horde von Saatlingen im Zielgebiet.;Legendary. Summons a horde of Saplings in target area.
+card_name_saplingfarm;Saatlinghügel;Sapling Hill
+card_name_shatterice;Eis zerschmettern;Shatter Ice
+card_description_shatterice;Fügt allen gegnerischen, gefrorenen Einheiten im Zielgebiet 1000 Schaden zu.;Deals 1000 damage to all frozen enemy units in target area.
+card_short_description_shatterice;Fügt gefrorenen Gegnern massiven Schaden zu.;Deals massive damage to frozen enemies.
+card_name_shieldgenerator;Nexus;Nexus
+card_name_shieldsup;Schilde hoch!;Shields Up!
+card_description_shieldsup;Bis zu 16 verbündete Einheiten, die keinen Schildblock haben, erhalten einen Schildblock. §effect_shieldblock_description;Up to 16 allied units, which do not have a shield block, gain a shield block. §effect_shieldblock_description
+card_short_description_shieldsup;Gibt verbündeten Einheiten im Zielgebiet einen Schildblock.;Gives allied units in target area a shield block.
+card_name_siegegolem;Kristallvollstrecker;Crystal Enforcer
+card_name_siegegolem_drop;Kristallvollstrecker;Crystal Enforcer
+card_name_siegegolem_spawner;Kristallvollstrecker-Spawner;Crystal Enforcer Spawner
+card_name_smallcastergolem;Kristallsänger;Crystal Chanter
+card_name_smallcastergolem_drop;Kristallsänger;Crystal Chanter
+card_name_smallcastergolem_spawner;Kristallsänger-Spawner;Crystal Chanter Spawner
+card_name_smallflyinggolem;Kristallbeobachter;Crystal Observer
+card_name_smallflyinggolem_drop;Kristallbeobachter;Crystal Observer
+card_name_smallflyinggolem_spawner;Kristallbeobachter-Spawner;Crystal Observer Spawner
+card_name_smallgolemtower;Kristallschrein;Crystal Shrine
+card_name_smallmeleegolem;Granitkundschafter;Granite Scout
+card_name_smallmeleegolem_drop;Granitkundschafter;Granite Scouts
+card_name_smallmeleegolem_spawner;Granitkundschafter-Spawner;Granite Scout Spawner
+card_name_smallrangedgolem;Steinweber;Stone Weaver
+card_name_smallrangedgolem_drop;Steinweber;Stone Weavers
+card_name_smallrangedgolem_spawner;Steinweber-Spawner;Stone Weaver Spawner
+card_name_solarflare;Sonneneruption;Solar Flare
+card_description_solarflare;Heilt eine verbündete Einheit um 650 und lässt 10 Sekunden lang Heilblitze um sie herum auf andere verbündete Einheiten regnen, welche diese um 15 heilen. §effect_overheal_description;Heals target allied unit by 650 and creates an aura that heals other nearby units by 15 for the next 10 seconds.  §effect_overheal_description
+card_short_description_solarflare;Heilt eine verbündete Einheit stark und danach umliegende Einheiten. Kann überheilen.;Heals target allied unit and provides a healing aura that overheals.
+card_name_spore;Sporenschweber;Spore
+card_name_spore_spawner;Sporenschweber-Spawner;Spore Spawner
+card_name_stonegolem;Steingolem;Stone Golem
+card_name_stonegolem_spawner;Steingolem-Spawner;Stone Golem Spawner
+card_name_suntower;Wachturm;Watchtower
+card_name_surgeoflight;Lichtschwall;Surge of Light
+card_description_surgeoflight;Ein Lichtstrahl schießt auf die Erde hinab und trifft eine Einheit. Wenn sie feindlich ist wird jegliche Überheilung naher verbündeter Einheiten entfernt und der Zieleinheit als Schaden plus 40 zugefügt. Wenn sie verbündet ist wird sie um 220 Leben geheilt. §effect_overheal_description;If the target is an enemy all overheal of surrounding allies is removed and dealt as damage plus 40 to the target. If it is an ally the target is healed for 220 health. §effect_overheal_description
+card_short_description_surgeoflight;Verletzt eine feindliche Einheit oder heilt eine verbündete Einheit. Kann überheilen.;Damages target enemy unit or heals target allied unit. Can overheal.
+card_name_thistle;Distel;Thistle
+card_name_thistle_drop;Disteln;Thistles
+card_name_thistle_spawner;Distel-Spawner;Thistles Spawner
+card_name_tyrus;Tyrus, Herr der Seelen;Tyrus, Lord of Souls
+card_name_undying;Unverwüstlichkeit;Undying
+card_description_undying;Verleiht einer verbündeten Einheit Unverwüstlichkeit. §effect_undying_description;Target allied unit becomes undying. §effect_undying_description
+card_short_description_undying;Verleiht einer verbündeten Einheit Unverwüstlichkeit.;Target allied unit becomes undying.
+card_name_vecra;Vecra, Monarchin des Frosts;Vecra, Monarch of Frost
+card_name_voidaltar;Seelenaltar;Soul Altar
+card_name_voidbane;Leerenbringer;Void Bane
+card_name_voidbane_drop;Leerenbringer;Void Bane
+card_name_voidbane_spawner;Leerenbringer-Spawner;Void Bane Spawner
+card_name_voidbowman;Skelett-Bogenschütze;Skeleton Archer
+card_name_voidbowman_drop;Skelett-Bogenschützen;Skeleton Archers
+card_name_voidbowman_spawner;Skelett-Bogenschützen-Spawner;Skeleton Archers Spawner
+card_name_voidcauldron;Seelenkessel;Soul Cauldron
+card_name_voidcauldron_drop;Seelenkessel;Soul Cauldron
+card_name_voidcauldron_spawner;Seelenkessel-Spawner;Soul Cauldron Spawner
+card_name_voidskeleton;Skelett;Skeleton
+card_name_voidskeleton_drop;Skelette;Skeletons
+card_name_voidskeleton_spawner;Skelett-Spawner;Skeletons Spawner
+card_name_voidslime;Spiegelschleim;Mirror Slime
+card_name_voidslime_drop;Spiegelschleim;Mirror Slime
+card_name_voidslime_spawner;Spiegelschleim-Spawner;Mirror Slime Spawner
+card_name_voidworm;Frostwurm;Frostworm
+card_name_voidworm_drop;Frostwurm;Frostworm
+card_name_voidworm_spawner;Frostwurm-Spawner;Frostworm Spawner
+card_name_voidwraith;Lich;Lich
+card_name_voidwraith_drop;Lich;Lich
+card_name_voidwraith_spawner;Lich-Spawner;Lich Spawner
+card_name_weakbasetower;Befestigungsturm;Fortified Tower
+card_name_woodwalker;Waldläufer;Woodwalker
+card_name_woodwalker_spawner;Waldläufer-Spawner;Woodwalker Spawner
+card_requirement_card_unlock;Schalte die Karte „%s“ frei.;"Unlock the card ""%s""."
+card_requirement_currency_spent;Gib %s %s im Shop aus.;Spend %d %s in the shop.
+card_requirement_player_level;Erreiche Level %s.;Reach level %d.
+card_requirement_event_card_play_;Spiele %d mal die Karte „%s“ aus.;"Play the card ""%1:s""%0:d times."
+card_requirement_event_unit_spawns_;Erschaffe %d mal ein %s.;Summon %1:s %0:d times.
+card_requirement_event_unit_kills_;Töte %d feindliche Einheiten mit %s.;Kill %d enemy units using %s.
+card_requirement_event_unit_deaths_;Verliere %d %s.;Lose %d %s.
+card_requirement_event_wela_triggers_;Löse %d mal %s aus.;Trigger %d %s times.
+card_requirement_event_wela_targets_;Lass %d Einheiten das Ziel von %s werden.;Target %d units with %s.
+card_requirement_event_wela_spawns_;Beschwöre %d Einheiten mit %s.;Summon %d units with %s.
+card_requirement_event_wela_kills_;Töte %d Einheiten mit %s.;Kill %d units with %s.
+card_requirement_event_wela_deaths_;Verliere %d Einheiten mit %s.;Lose %d units with %s.
+card_requirement_event_wela_duration_;Halte %d Sekunden %s aufrecht.;Keep %d active for %s seconds.
+card_requirement_event_wela_gain_damage_;Lass deine Einheiten %d Schaden erhalten während sie %s haben.;Let your units take %d damage while having %s.
+card_requirement_event_wela_dealt_damage_;Lass deine Einheiten %d Schaden verursachen während sie %s haben.;Let your units deal %d damage while having %s.
+card_requirement_event_global_kills;Töte %d feindliche Einheiten.;Kill %d enemy units.
+card_requirement_event_global_instakills;Töte %d feindlichen Einheiten mit jeweils nur einem Schlag.;Kill %d enemy units each by a single strike.
+card_requirement_event_global_gain_damage;Lass deine Einheiten insgesamt %d Schaden erhalten.;Let your units take %d damage altogether.
+card_requirement_event_global_deaths;Verliere %d Einheiten.;Lose %d units.
+card_requirement_event_global_instadeaths;Verliere %d Einheiten jeweils durch nur einem Schlag.;Lose %d units each by a single strike.
+card_requirement_event_global_spawns;Beschwöre %d Einheiten.;Summon %d units.
+card_requirement_event_unit_kills_voidworm;Töte %d feindliche Einheiten mit Frostwürmern.;Kill %d enemy units with Frostworms.
+card_requirement_event_wela_targets_deathrattlefrostexplosion;Friere %d Einheiten mit der Fähigkeit Todesröcheln: Frostschleim ein.;Freeze %d enemy units with the ability Deathrattle: Frostexplosion.
+card_requirement_event_wela_kills_frenzy;Töte %d feindliche Einheiten durch Einheiten die durch Raserei verstärkt sind.;Kill %d enemy units with units empowered by Frenzy.
+card_requirement_event_unit_spawns_voidworm;Beschwöre %d Frostwürmer.;Spawn %d Frostworms.
+card_requirement_event_wela_triggers_frostspearmodefrost;Nutze %d mal den Frostschock um Einheiten einzufrieren.;Use Frostshock %d times to freeze units.
+card_requirement_event_wela_kills_frostspear;Töte %d Einheiten mit dem Frostschock.;Kill %d enemy units with Frostshock.
+card_requirement_event_wela_targets_frozen;Friere %d feindliche Einheiten ein.;Freeze %d enemy units.
+card_requirement_event_wela_targets_soulless;Entziehe die Seele von %d feindlichen Einheiten.;Remove the soul of %d enemy units.
+card_requirement_event_wela_kills_melee;Töte %d Einheiten mit Nahkampfeinheiten.;Kill %d units using melee units.
+card_requirement_event_wela_targets_soulgatherer;Sammle %d Seelen mit Seelensammler-Fähigkeiten.;Gather %d souls using soulgatherer abilities.
+card_requirement_event_wela_kills_soulseeker;Töte %d Einheiten mit Einheiten deren Seelensucher-Fähigkeit aktiv ist.;Kill %d units with units that have Soulseeker active.
+card_requirement_event_wela_triggers_buildingblastmax;Löse %d mal die Fähigkeit §unitability_name_deathrattleblast mit maximaler Seelenladung aus.;Trigger §unitability_name_deathrattleblast with maximum souls %d times.
+card_requirement_event_wela_kills_with_two_state_effects;Töte %d Einheiten auf denen mindestens zwei Statuseffekt wirken.;Kill %d units with at least two status effects on them.
+card_requirement_event_wela_kills_frozen;Töte %d eingefrorene Einheiten.;Kill %d frozen units.
+card_requirement_event_wela_triggers_soulgathererundying;Löse %d mal die Fähigkeit Seelensammler: Unverwüstlich aus.;Trigger Soulgatherer: Undying %d times.
+card_requirement_event_wela_kills_shatterice;Töte %d Einheiten mit Eis zerschmettern.;Kill %d units with Shatter Ice.
+card_requirement_event_wela_kills_undying;Töte %d Einheiten mit Einheiten deren Unverwüstlichkeit ausgelöst hat.;Kill %d units with units that have Undying active.
+card_requirement_event_global_kills_with_two_state_effects;Töte %d Einheiten die mindestens von zwei Statuseffekten betroffen sind.;Kill %d units with at least two status effects on them.
+card_requirement_event_unit_kills_frostgoyle;Töte %d Einheiten mit Frostgoyles.;Kill %d units with Frostgoyles.
+card_requirement_event_wela_triggers_soulconsumed;Nutze %d Fähigkeiten welche Seelen zum Auslösen verbrauchen.;Use %d abilities that need souls to activate.
+card_requirement_event_wela_targets_mirrorstatus;Spiegle %d Statuseffekte mit der Fähigkeit Statusreflektor.;Mirror %d status effects with Status Reflector.
+card_requirement_event_wela_targets_powerfuldebutsoulvortex;Entziehe %d Einheiten die Seele mit Epischer Auftritt: Seelenstrudel.;Extract the soul of %d units with Powerful Debut: Soul Vortex.
+card_requirement_event_wela_targets_icyprison;Friere %d Einheiten mit Schwacher Auftritt: Eisgefängnis ein.;Freeze %d units with Weak Debut: Icy Prison.
+card_requirement_event_wela_targets_souldonor;Übertrage %d Seelen mit der Fähigkeit §unitability_name_souldonor.;Transfer %d souls with §unitability_name_souldonor.
+card_requirement_event_wela_gain_damage_permafrost;Lass deinen Einheiten die von Permafrost betroffen sind insgesamt %d Schaden erhalten.;Let your units affected by Permafrost take %d damage.
+card_requirement_event_wela_targets_ripoutsoul;Wende §card_name_ripoutsoul auf %d Einheiten an.;Apply §card_name_ripoutsoul to %d units.
+card_requirement_event_wela_kills_flying;Töte %d Einheiten mit fliegenden Einheiten.;Kill %d units using flying units.
+card_requirement_event_wela_triggers_shieldblock;Löse %d Schildblocks bei deinen Einheiten aus.;Trigger %d shield blocks on your own units
+card_requirement_event_unit_spawns_footman;Beschwöre %d Fußsoldaten.;Summon %d Footmen.
+card_requirement_event_wela_gain_damage_ranged;Lass deine Fernkampfeinheiten insgesamt %d Schaden nehmen.;Let your ranged units take %d damage.
+card_requirement_event_unit_spawns_archerprojectile;Lass deine Bogenschützen %d Pfeile abfeuern.;Let your Archers fire %d arrows.
+card_requirement_event_wela_triggers_healinfusionchibash;Löse %d mal die Fähigkeit Heilinfusion: Chi-Schmettern aus.;Trigger the ability Healinfusion: Chi-Bash %d times.
+card_requirement_event_wela_targets_flatheal;Heile %d Einheiten mit Direktheilungen.;Heal %d units with direct heal.
+card_requirement_event_wela_triggers_hailofarrows;Lass insgesamt %d Wellen aus Pfeilen mit dem Zauber Pfeilhagel niedergehen.;Shoot %d waves of arrows using Hail of Arrows.
+card_requirement_event_wela_triggers_healinglight;Nutze %d mal die Fähigkeit Heilung.;Use the ability Healing Light %d times.
+card_requirement_event_wela_triggers_surgeoflightmodeheal;Heile %d mal mit dem Zauber Lichtschwall.;Heal units %d times using Surge of Light.
+card_requirement_event_wela_kills_blind;Töte %d Einheiten die von Blindheit betroffen sind.;Kill %d units affected by blindness.
+card_requirement_event_wela_triggers_healinfusionlightgrenades;Aktiviere %d mal die Fähigkeit Heilinfusion: Lichtgranaten.;Activate Healinfusion: Lightgrenades %d times.
+card_requirement_event_wela_deaths_melee;Verliere %d Nahkampfeinheiten.;Lose %d melee units.
+card_requirement_event_wela_dealt_damage_siege;Füge insgesamt %d Schaden mit Belagerungseinheiten zu.;Deal %d damage using siege units.
+card_requirement_event_wela_dealt_damage_rootbyranged;Füge verwurzelten Einheiten insgesamt %d Fernkampfschaden zu.;Deal %d ranged damage to rooted units.
+card_requirement_event_wela_triggers_spell;Verwende %d mal einen beliebigen Zauber.;Cast %d spells.
+card_requirement_event_wela_deaths_lte50hp;Verliere %d Einheiten mit 50 oder weniger Leben.;Lose %d units with 50 or less maximum health.
+card_requirement_event_wela_gain_damage_flatheal;Heile insgesamt %d Leben mit Direktheilungen.;Heal %d health with direct heals.
+card_requirement_event_wela_spawns_ranged;Beschwöre %d Fernkampfeinheiten.;Summon %d ranged units.
+card_requirement_event_wela_spawns_range;Beschwöre Fernkampfeinheiten mit einer Gesamtreichweite von %d.;Summon units with a total range of %d.
+card_requirement_event_wela_triggers_guardinglight;Löse %d mal die Fähigkeit Schützendes Licht aus.;Trigger Guarding Light %d times.
+card_requirement_event_wela_gain_damage_overheal;Überheile insgesamt %d Lebenspunkte.;Overheal %d HP.
+card_requirement_event_wela_kills_splash;Töte %d Einheiten mit Flächenschaden.;Kill %d units using splash damage.
+card_requirement_event_single_wela_gain_damage_max;Lass eine einzelne Einheit mindestens %d Schaden erhalten.;Let a single unit take at least %d damage.
+card_requirement_event_unit_spawns_thistle;Beschwöre %d Disteln.;Summon %d Thistles.
+card_requirement_event_wela_triggers_evade;Lass deine Einheiten %d mal einer Attacke ausweichen.;Let your units evade an attack %d times.
+card_requirement_event_wela_gain_damage_giantgrowth;Lass deine Einheiten insgesamt %d Schaden erhalten während sie von Riesenwuchs betroffen sind.;Let your units take %d damage while affected by Giant Growth.
+card_requirement_event_wela_gain_damage_rootbybasebuilding;Lass feindliche Einheiten %d Schaden von Basisgebäuden erhalten, während sie verwurzelt sind.;Let enemy units take %d damage from enemy base buildings while they are rooted.
+card_requirement_event_wela_targets_root;Verwurzle %d feindliche Einheiten.;Root %d enemy units.
+card_requirement_event_wela_kills_rootnetwork;Töte %d Einheiten mit der Fähigkeit Wurzelverbund.;Kill %d units using Root Network
+card_requirement_event_wela_kills_root;Töte %d verwurzelte, feindliche Einheiten.;Kill %d rooted enemy units.
+card_requirement_event_wela_deaths_saplingfarmtimeout;Verliere %d Saatlinghügel, weil ihre Zeit abgelaufen ist.;Lose %d Sapling Hills by letting them expire.
+card_requirement_event_wela_targets_rootbraid;Verwurzle %d Einheiten mit der Fähigkeit Wurzelgeflecht.;Root %d units using Braided Root.
+card_requirement_event_wela_gain_damage_giantgrowthbyhot;Heile insgesamt %d Leben von Einheiten die von Riesenwuchs betroffen sind mit Regenerationseffekten.;Using regeneration effects, restore %d health to units affected by Giant Growth.
+card_requirement_event_wela_triggers_barkboost;Löse %d mal die Fähigkeit Saatlingsabsorption aus.;Trigger Sapling Absorption %d times.
+card_requirement_event_wela_triggers_evolvethistlemaxtargets;Evolutioniere %d mal die maximale Anzahl an Saatlingen mit Evolution: Distel.;Evolve the maximum amount of Saplings with Evolve: Thistle %d times. 
+card_requirement_event_wela_gain_damage_hot;Heile insgesamt %d Leben mit Regenerationseffekten.;Heal %d health with regeneration effects.
+card_requirement_event_wela_targets_evolve;Evolutioniere %d mal einen Saatling.;Evolve a Sapling %d times.
+card_requirement_event_unit_kills_sapling;Töte %d Einheiten mit Saatlingen.;Kill %d units using Saplings.
+card_requirement_event_wela_gain_damage_saplingbybasebuilding;Lass deine Saatlinge ingesamt %d Schaden von Basisgebäuden erhalten.;Let your Saplings take %d damage from enemy base buildings.
+card_requirement_event_wela_duration_gatlingdronelink;Halte insgesamt %d Sekunden den Angriff von Gatlingdrohnen aufrecht.;Let your Gatlingdrones attack for %d seconds.
+card_requirement_event_unit_kills_gatlingdrone;Töte %d feindliche Einheiten mit Gatlingdrohnen.;Kill %d enemy units using Gatlingdrones.
+card_requirement_event_wela_triggers_ammoempty;Verbrauche %d mal die komplette Munition einer Einheit.;Deplete the whole ammunition of a unit %d times.
+card_requirement_event_unit_kills_missileturret;Töte %d feindliche Einheiten mit Raketenwerfern.;Kill %d units using the Missileturret.
+card_requirement_event_wela_kills_upBuilding;Töte %d Einheiten mit Gebäuden.;Kill %d units using buildings.
+card_requirement_event_wela_dealt_damage_sporefield;Regeneriere insgesamt %d Lebenspunkte mit der Fähigkeit §unitability_name_DeathRattleSporeField.;Regenerate %d health using the ability §unitability_name_DeathRattleSporeField.
+card_stats_attack;Angriff;Attack
+card_stats_defense;Verteidigung;Defense
+card_stats_utility;Unterstützung;Utility
+cardtype_building;Gebäude;Building
+cardtype_drop;Beschwörung;Summoning
+cardtype_spawner;Spawner;Spawner
+cardtype_spell;Zauber;Spell
+;;
+;;
+effect_blind_description;Geblendete Einheiten verfehlen 50% ihrer Angriffe. Kürzlich geblendete Einheiten sind 10 Sekunden lang immun gegen erneutes Blenden.;Blinded units miss 50% of their attacks. Recently blinded units are immune to blinds for 10 seconds.
+effect_frozen_description;Gefrorene Einheiten sind handlungsunfähig für 10 Sekunden. Kürzlich gefrorene Einheiten sind 10 Sekunden lang immun gegen erneutes Einfrieren.;Frozen units are incapacitated for 10 seconds. Recently frozen units are immune to being frozen for 10 seconds.
+effect_guarded_description;Geschützte Einheiten erhalten, wenn sie sterben würden, für 8 Sekunden Unbesiegbarkeit und ihre Leben werden zu 1. Wenn der Schutz auslöst können sie 60 Sekunden lang nicht erneut geschützt werden.;Guarded units become invincible for 8 seconds and their health is set to 1 if they would die. If this effect triggers they can't be guarded again for 60 seconds. 
+effect_overheal_description;Dieser Effekt kann überheilen. Jegliche Heilung die über die maximalen Leben hinaus gehen, werden als Schild gespeichert, bis zu einem Maximum der doppelten Maximalleben.;This effect can overheal. All healing overshooting the maximum health is saved as a shield, which is capped at twice the maximum health.
+effect_rescue_description;Gerettete Einheiten werden mit einem Lebenspunkt zum Nexus teleportiert und alle Statuseffekte von ihnen entfernt. Jede Einheit kann nur einmal gerettet werden.; Rescued units are teleported to the nexus with one health point and all status effects are removed from them. A unit can only be rescued once.
+effect_root_description;Verwurzelte Einheiten können sich für 15 Sekunden nicht bewegen und erhalten 1 Schaden pro Sekunde. Kürzlich verwurzelte Einheiten sind 10 Sekunden lang immun gegen eine erneute Verwurzelung.;Rooted units can‘t move for 15 seconds and is dealt 1 damage per second. Recently rooted units are immune to roots for 10 seconds.
+effect_shieldblock_description;Ein Schildblock verhindert den nächsten eintreffenden Schaden der größer 10 ist.;A shield block prevents the next incoming damage that exceeds 10.
+effect_soulless_description;Seelenlose Einheiten erhalten jede Sekunde Schaden in Höhe von 2% ihrer maximalen Leben. Ihnen kann keine Seele mehre entzogen werden.;Soulless units receive every second damage by 2% of their maximum health. Their soul can‘t be extracted again.
+effect_stunned_description;Betäubte Einheiten sind für 2 Sekunden handlungsunfähig.;Stunned units are incapacitated for 2 seconds.
+effect_undying_description;Unverwüstliche Einheiten werden, wenn sie sterben würden, stattdessen vollständig geheilt, können danach nicht mehr geheilt werden und verlieren permanent 10% ihrer Maximalleben pro Sekunde.;Undying units will be fully healed if they would die. Afterwards they permanently lose 10% of their maximum health per second and can't be healed anymore.
+;;
+unitability_name_ammo;Munition;Ammunition
+unitability_hint_ammo;Diese Einheit hat begrenzte Munition.;Has limited ammunition for its attacks.
+unitability_name_ammolanetower;Nachfüllende Munition;Refilling Ammunition
+unitability_hint_ammolanetower;Diese Einheit hat begrenzte Munition, aber füllt diese alle 3 Sekunden um einen Schuss nach. ;Has limited ammunition for it's attacks, but refills one shot every 3 seconds.
+unitability_name_barkboost;Saatlingabsorption;Sapling Absorption
+unitability_hint_barkboost;Nahe Saatlinge verschmelzen mit dem Orakel, um seine Leben permanent um 40 zu erhöhen. Hat eine Abklingszeit von 3 Sekunden.;Nearby Saplings sacrifice themselves in order to permanently increase the maximum health of this unit by 40. Has a cooldown of 3 seconds.
+unitability_name_biggamehunter;Großwildjäger;Big Game Hunter
+unitability_hint_biggamehunter;Diese Einheit greift immer den Feind mit den höchsten maximalen Leben in ihrer Reichweite an.;This unit always attacks the enemy with the highest maximum health in its range.
+unitability_name_bounce;Abprall;Bounce
+unitability_hint_bounce;Die normale Attacke dieser Einheit springt auf bis zu zwei weitere Einheiten über und fügt ihnen die Hälfte des ursprünglichen Schadens zu.;The normal attack of this unit bounces through the main target, hitting up to two additional targets dealing half the original damage.
+unitability_name_cleave;Bereichsschaden;Splash Damage
+unitability_hint_cleave;Diese Einheit trifft beim Angriff alle Gegner vor sich.;This unit attacks all units in front of it.
+unitability_name_copystatus;Adaption;Adaptation
+unitability_hint_copystatus;Diese Einheit übernimmt alle Statuseffekte der Einheiten welche sie angreift.;This unit gains all status effects of the unit it attacks.
+unitability_name_crystalartillery;Kristallartillerie;Crystal Artillery
+unitability_hint_crystalartillery;Diese Einheit hat einen zusätzlichen Angriff gegen Gebäude mit einer sehr großen Reichweite, welcher 10 Sekunden lang aufgeladen werden muss. Wenn diese Einheit in den Nahkampf verwickelt wird, verliert sie alle Aufladungen.;This unit has an additional long range attack against buildings which has to be charged for 10s. If it is caught in melee fight it loses all its charges.
+unitability_name_crystalpower;Kristallmacht;Crystal Power
+unitability_hint_crystalpower;Diese Einheit verleiht verbündeten Einheiten Kristallmacht. Deren Angriffe erzeugen zusätzlich einen Funken, welcher eine zusätzlich Einheit hinter der angegriffenen Einheit trifft.;This unit gives nearby allied units Crystal Power. Crystal Power adds a secondary attack that targets a unit behind the actual target unit. 
+unitability_name_deathrattleblast;Todesröcheln: Erschüttern;Death Rattle: Blast
+unitability_hint_deathrattleblast;Wenn diese Einheit stirbt schießt sie ein Belagerungsprojektil auf ein nahes feindliches Gebäude, welches pro gesammelter Seele 10 Schaden zufügt.;Whenever this unit dies it launches a siege projectile at a nearby enemy building dealing 10 damage per gathered soul.
+unitability_name_deathrattlefrostexplosion;Todesröcheln: Frostschleim;Death Rattle: Frostexplosion
+unitability_hint_deathrattlefrostexplosion;Wenn diese Einheit stirbt, werden alle nahen feindlichen Einheiten eingefroren. §effect_frozen_description;Whenever this unit dies all nearby enemy units are frozen. §effect_frozen_description
+unitability_name_deathrattlesporefield;Todesröcheln: Sporenfeld;Death Rattle: Spore Field
+unitability_hint_deathrattlesporefield;Wenn diese Einheit stirbt hinterlässt sie ein heilendes Feld, welches 7 Sekunden lang verbündete Einheiten um 48 pro Sekunde regeneriert.;Whenever this unit dies it leaves a small patch of spores that regenerates allied units by 48 per second and lasts for 7 seconds.
+unitability_name_evasion;Ausweichen;Evasion
+unitability_hint_evasion;Weicht 40% aller Angriffen aus, außer Zaubern und Bereichschaden.;Evades 40% of all attacks, except spells and splash.
+unitability_name_flying;Fliegend;Flying
+unitability_hint_flying;Diese Einheit fliegt und kann nicht von jedem angegriffen werden.;Can only be targeted by certain enemies.
+unitability_name_focussiege;Fokus: Gebäude;Focus: Buildings
+unitability_hint_focussiege;Diese Einheit greift nur Gebäude an und ignoriert alles andere.;This unit attacks buildings only. It ignores everything else.
+unitability_name_frostnova;Frostnova;Frostnova
+unitability_hint_frostnova;Fügt einer gegnerischen Einheit 100 Schaden zu und friert sie ein. Nahe gegnerische Einheiten bekommen 30 Schaden. Hat eine Abklingzeit von 10 Sekunden. §effect_frozen_description;Deals 100 damage to an enemy unit and freezes it. Nearby enemy units take 30 damage. Has a 10s cooldown. §effect_frozen_description
+unitability_name_frostshot;Frostschleim;Frostslime
+unitability_hint_frostshot;Die Angriffe dieser Einheit bevorzugen nicht eingefrorene Ziele und frieren das Ziel ein. §effect_frozen_description;Attacks of this unit priorizes non-freezed units and freeze the target. §effect_frozen_description
+unitability_name_gathersouls;Seelenfänger;Soulcatcher
+unitability_hint_gathersouls;Sammelt alle ungenutzten Seelen naher sterbender Einheiten ein und speichert diese.;Gathers the unused souls of units that die nearby and saves them.
+unitability_name_groundonly;Flacher Schusswinkel;Flat Firing Angle
+unitability_hint_groundonly;Diese Fernkampfeinheit bekämpft nur Bodeneinheiten.;This ranged unit only fights ground units.
+unitability_name_growsaplings;Saatlingernte;Harvest Saplings
+unitability_hint_growsaplings;Beschwört 2 Saatlinge alle 7,5 Sekunden.;Summons 2 Saplings every 7.5s.
+unitability_name_guardinglight;Schützendes Licht;Guarding Light
+unitability_hint_guardinglight;Nahe verbündete Einheiten werden geschützt. §effect_guarded_description;Nearby allied units are guarded. §effect_guarded_description
+unitability_name_hailofstones;Steinhagel;Hail of Stones
+unitability_hint_hailofstones;Wenn diese Einheit keine nahen Ziele hat, wirft sie Steine auf weit entfernte Gebäude, welche 50% reduzierten Schaden machen.;If this unit has no current targets nearby, it throws stones at buildings in a long distance, which deal 50% reduced damage.
+unitability_name_healinglight;Heilung;Heal
+unitability_hint_healinglight;Heilt eine verletzte, verbündete Einheit im Umkreis um 55 Leben. Hat eine Abklingzeit von 5 Sekunden. §effect_overheal_description;Heals an injured, allied unit for 55 health. Has a 5s cooldown. §effect_overheal_description
+unitability_name_healarmoraura;Umarmung des Waldes;Nature's Embrace
+unitability_hint_healarmoraura;Heilt nahe Verbündete Einheiten um 15 Leben pro Sekunde.;Heals nearby allied units for 15/s.
+unitability_name_healinfusionchibash;Heilinfusion: Chi-Schmettern;Healinfusion: Chi-Bash
+unitability_hint_healinfusionchibash;Nachdem die Einheit durch einen nicht Regenerations-Effekt geheilt wurde, betäubt sie beim nächsten Angriff den Gegner. §effect_stunned_description;After this unit becomes healed by a non-regeneration-effect it's next attack stuns the enemy. §effect_stunned_description
+unitability_name_healinfusionlightgrenades;Heilinfusion: Lichtgranaten;Healinfusion: Lightgrenades
+unitability_hint_healinfusionlightgrenades;Nachdem diese Einheit zum ersten Mal durch einen nicht Regenerations-Effekt geheilt wurde, blenden ihre Angriffe den Feind für 15 Sekunden. §effect_blind_description;After this unit becomes healed by a non-regeneration effect, it's attack blinds enemies for a 15 seconds. §effect_blind_description
+unitability_name_healingpotion;Heiltrank;Healing Potion
+unitability_hint_healingpotion;Wirft Heiltränke auf andere, verbündete Einheiten, welchen mindestens 50 Leben fehlen, um diese um 100 Leben zu heilen. Hat eine Abklingzeit von 15 Sekunden.;Heals a nearby ally by 100 (if it is missing at least 50 Health). Has a cooldown of 15s.
+unitability_name_healingwave;Lichtwelle;Healing Wave
+unitability_hint_healingwave;Heilt alle 10 Sekunden alle nahen verbündeten mit einer mächtigen Heilwelle um 100 Leben. §effect_overheal_description;Heals all nearby allied units by 100 every 10 seconds. §effect_overheal_description
+unitability_name_heavilyarmed;Schwer Bewaffnet;Heavily Armed
+unitability_hint_heavilyarmed;Aegis IX ist schwer bewaffnet. Sie hat eine Raumspaltkanone, welche nicht-legendäre Gegner augenblicklich vernichtet, zwei Langstreckenraketenwerfer mit begrenzter Munition und vier starr ausgerichtete Gatlinggeschütze zur Nahverteidigung.;Aegis IX is heavily armed. She has a rift cannon, which annihilates non-legendary enemies instantly, two long range missile launchers with limited ammunition and four directed gatling turrets for close-in defense.
+unitability_name_homeland;Heimat;Homeland
+unitability_hint_homeland;Immer wenn eine verbündete, nicht-legendäre Einheiten in der Nähe stirbt, wird sie stattdessen gerettet. §effect_rescue_description;Whenever a nearby allied, non-legendary unit dies, it is rescued instead. §effect_rescue_description
+unitability_name_hot;Heilende Saat;Regenerating Symbiosis
+unitability_hint_hot;Diese Einheit verteilt heilende Samen auf Verbündeten, welche dadurch 20 Leben pro Sekunde regenerieren. Dieser Effekt hält 10 Sekunden an.;This unit places regeneration buffs on allied units healing them by 20 per second. This effect lasts for 10 seconds.
+unitability_name_icybreath;Eisatem;Icy Breath
+unitability_hint_icybreath;Die Angriffe dieser Einheit gefrieren die Zieleinheit.;Attacks of this unit freeze the target unit.
+unitability_name_icyfingers;Eisfinger;Icy Fingers
+unitability_hint_icyfingers;Fügt gefrorenen Einheiten doppelten Schaden zu.;Deals double damage to frozen units.
+unitability_name_icyprison;Schwacher Auftritt: Eisgefängnis;Weak Debut: Icy Prison
+unitability_hint_icyprison;Diese Einheit wird tiefgefroren beschworen und verliert für diese Zeit alle anderen Fähigkeiten. Sie erleidet 80% reduzierten Schaden und verliert stetig Leben durch Gefrierbrand. Wenn die Leben unter 50% fallen wird das Eisgefängnis entfernt und nahe Feinde eingefroren.;This unit is spawned permafrosted losing all other abilities for the duration. It reduces all incoming damage by 80% and continuously loses health to frostbite. After dropping below 50% in health this unit breaks free and freezes all nearby enemies.
+unitability_name_intensify;Intensivieren;Intensify
+unitability_hint_intensify;Diese Einheit greift mit einem kontinuierlichen Strahl an, welcher bis zu einem Maximum über die Zeit immer stärker wird.;This units attack is a continuous beam that increases in damage the longer it channels.
+unitability_name_lanetowerupgrade;Upgrade;Upgrade
+unitability_hint_lanetowerupgrade;Dieser Wehrturm wird je nach Phase zäher und teilt mehr Schaden aus.;This tower becomes according to the stage tougher and deals more damage.
+unitability_name_legendary;Legendär;Legendary
+unitability_hint_legendary;Jeder Spieler kann nur eine legendäre Karte zur gleichen Zeit auf dem Schlachtfeld aktiv haben. Legendäre Einheiten sind immun gegen Statuseffekte.;Each player can only have one legendary card active at the same time. Legendary units are immune to status effects.
+unitability_name_lightovercharge;Lichtüberladung;Light Overcharge
+unitability_hint_lightovercharge;Das Geschoss dieser Einheit heilt bis zu 10 verletzte, verbündete Einheiten um 5 Leben auf ihrem Weg zum Ziel.;The projectile of this unit emits small bursts of light healing up to 10 units nearby it by 5.
+unitability_name_limitedgadget;Begrenzt: Gerät;Limited: Gadget
+unitability_hint_limitedgadget;Du kannst maximal 10 Geräte gleichzeitig auf dem Schlachtfeld aktiv haben.;You can control up to 10 gadgets on the battlefield at the same time.
+unitability_name_lotharaura;Schützende Aura;Devotion Aura
+unitability_hint_lotharaura;Leitet 80% des Schadens, den nahe verbündete Einheit erhalten würden, auf sich selber um.;Redirects 80% of all damage nearby allied units would receive, to Lothar.
+unitability_name_mirrorstatus;Statusreflektor;Status Reflector
+unitability_hint_mirrorstatus;Nahkampfeinheiten die diese Einheit angreifen erhalten alle Statuseffekte welche sie hat.;If this unit is attacked by a melee unit, it spreads all of its status effects to the attacker.
+unitability_name_monarchoffrost;Monarchin des Frosts;Monarch of Frost
+unitability_hint_monarchoffrost;Entzieht allen nahen gefrorenen, feindlichen Einheiten jede Sekunde 12 Leben und regeneriert sich um die Hälfte dessen.;Continuously drains 12 health per second of nearby frozen enemies, regenerating itself by half the amount.
+unitability_name_multishot2;Zweifachschuss;Doubleshot
+unitability_hint_multishot2;Greift 2 Ziele gleichzeitig an.;Can attack 2 enemies at once.
+unitability_name_multishot3;Dreifachschuss;Tripleshot
+unitability_hint_multishot3;Greift 3 Ziele gleichzeitig an.;Can attack 3 enemies at once.
+unitability_name_nexusupgrade;Upgrade;Upgrade
+unitability_hint_nexusupgrade;Ab der nächsten Phase wird der Nexus zäher und teilt mehr Schaden aus.;At the next stage the Nexus become tougher and deals more damage.
+unitability_name_nothoming;Artillerie;Artillery
+unitability_hint_nothoming;Die Geschosse dieser Fernkampfeinheit sind nicht zielsuchend und schlagen auf dem Boden ein. Dabei fügen sie Schaden an Zielen am Zielpunkt zu.;The projectile of this ranged unit is not homing and hits the ground, damaging all units at the impact point.
+unitability_name_pacifist;Pazifist;Pacifist
+unitability_hint_pacifist;Diese Einheit hat keinen Angriff.;This unit does not attack.
+unitability_name_powerfuldebutstun;Epischer Auftritt: Betäuben;Powerful Debut: Stun
+unitability_hint_powerfuldebutstun;Nach der Beschwörung werden alle nahen feindlichen Einheiten für 2 Sekunden betäubt.;After spawn all enemies nearby are stunned for 2 seconds.
+unitability_name_powerfuldebutsoulvortex;Epischer Auftritt: Seelenstrudel;Powerful Debut: Soul Vortex
+unitability_hint_powerfuldebutsoulvortex;Diese Einheit entzieht, bei ihrer Beschwörung, allen nahen Einheiten ihre Seele und verdoppelt diese.;When this unit enters the Battlefield, it extracts the souls of all nearby units and doubles them.
+unitability_name_precisehit;Zuverlässiger Treffer;Reliable Hit
+unitability_hint_precisehit;Diese Einheit fügt betäubten Einheiten 50% mehr Schaden zu.;This unit deals 50% more damage to stunned units.
+unitability_name_primarytarget;Primärziel;Primary Target
+unitability_hint_primarytarget;Wenn der Nexus zerstört wird, verliert das zugehörige Team.;If the Nexus health are reduced to 0 the owning team loses the match.
+unitability_name_root;Verwurzelung;Root
+unitability_hint_root;Angegriffene Einheiten werden verwurzelt. §effect_root_description;Attacked enemies are rooted for 15 seconds. §effect_root_description
+unitability_name_rootbraid;Wurzelgeflecht;Braided Root
+unitability_hint_rootbraid;Immer wenn diese Einheit geheilt wird erhält sie eine Wurzelmarke. Zwei Wurzelmarken werden verbraucht, um eine eine feindliche Einheit in der Nähe zu verwurzeln. Kürzlich verwurzelte Einheiten sind 10 Sekunden lang immun gegen eine erneute Verwurzelung.;Whenever this unit gets healed it gains a root-token. A nearby enemy unit is rooted when receiving the second token. Recently rooted units are immune to roots for 10 seconds.
+unitability_name_rootnetwork;Wurzelverbund;Root Network
+unitability_hint_rootnetwork;Alle verwurzelten, feindlichen Einheiten nahe der angegriffenen Einheit erhalten auch 10 Schaden pro Angriff.;All rooted enemy units near the attacked unit take 10 damage every tick.
+unitability_name_siege;Belagerung;Siege
+unitability_hint_siege;Diese Einheit ist besonders effektiv gegen Gebäude und teilt vierfachen Schaden gegen Verstärkte Rüstung aus.;This unit is most efficient against buildings, dealing quadruple damage against fortified armor.
+unitability_name_shatterice;Eis zerschmettern;Shatter Ice
+unitability_hint_shatterice;Die Angriffe dieser Einheit fügen gefrorenen Zielen dreifachen Schaden zu.;Attacks of this unit deal triple damage against frozen enemies.
+unitability_name_shieldblock;Schildblock;Shield Block
+unitability_hint_shieldblock;Diese Einheit hat einen Schildblock, welcher alle 5 Sekunden erneuert wird und mit anderen Schildblocks gestapelt werden kann. §effect_shieldblock_description;This unit has a shield block, which is renewed all 5 seconds and can be stacked with other shield blocks. §effect_shieldblock_description
+unitability_name_slow;Gemächlich;Slow
+unitability_hint_slow;Diese Einheit bewegt sich nur mit der halben Bewegungsgeschwindigkeit;This unit‘s movement-speed is halved.
+unitability_name_splinter;Splittern;Splinter
+unitability_hint_splinter;Wenn diese Einheit durch einen Angriff mehr als 35 Leben verliert splittert ein Steinbrocken ab und formt einen Granitkundschafter. Hat eine Abklingzeit von 3 Sekunden.;If this unit is dealt at least 35 damage with a single attack a Granite Scout is spawned. Has a cooldown of 3s.
+unitability_name_souldevour;Seelensammler: Verzehr;Soulgatherer: Devour
+unitability_hint_souldevour;Wenn diese Einheit unter 50% ihrer Leben ist, konsumiert sie getragene Seelen um sich um 50 pro Seele zu heilen.;When this unit drops below 50% health it consumes all carried souls to heal itself by 50 per soul.
+unitability_name_soulcarrier1;Seelenspeicher 1;Soul Carrier 1
+unitability_hint_soulcarrier1;Diese Einheit kann bis zu einer Seele speichern.;This unit can carry up to one soul.
+unitability_name_soulcarrier2;Seelenspeicher 2;Soul Carrier 2
+unitability_hint_soulcarrier2;Diese Einheit kann bis zu zwei Seelen speichern.;This unit can carry up to two souls.
+unitability_name_soulcarrier10;Seelenspeicher 10;Soul Carrier 10
+unitability_hint_soulcarrier10;Diese Einheit kann bis zu 10 Seelen speichern.;This unit can carry up to 10 souls.
+unitability_name_soulcarrierinfinite;Seelenspeicher ∞;Soul Carrier ∞
+unitability_hint_soulcarrierinfinite;Diese Einheit kann beliebig viele Seelen speichern.;This unit can carry any count of souls.
+unitability_name_souldonor;Seelenspender;Soul Contributor
+unitability_hint_souldonor;Gespeicherte Seelen werden einzeln alle 2 Sekunden auf nahe verbündete Seelenspeicher übertragen.;Saved souls are passed to nearby allied soul carriers one by one every 2 seconds.
+unitability_name_soulextract;Seele entziehen;Revoke Soul
+unitability_hint_soulextract;Angegriffenen Einheiten wird ihre Seele entrissen, welche auf nahe verbündete Seelenspeicher überspringt und werden seelenlos. §effect_soulless_description;The souls of attacked units are transferred to nearby allied soul carriers and they become soulless. §effect_soulless_description
+unitability_name_soulgatherermultishot;Seelensammler: Zwillingspfeil;Soulgatherer: Multishot
+unitability_hint_soulgatherermultishot;Solange diese Einheit Seelen trägt kann sie ein zusätzliches Ziel gleichzeitig angreifen.;As long as this unit carries souls, its attacks target a second enemy unit nearby.
+unitability_name_soulgatherersoularmor;Seelensammler: Seelenrüstung;Soulgatherer: Soul Armor
+unitability_hint_soulgatherersoularmor;Solange diese Einheit Seelen trägt werden diese konsumiert um eintreffende Angriffe zu blocken;When this unit is attacked it consumes carried souls in order to block the attack.
+unitability_name_soulgatherersummonfrostgoyle;Seelensammler: Frostspeierbeschwörung;Soulgatherer: Summon Frostgoyle
+unitability_hint_soulgatherersummonfrostgoyle;Wenn diese Einheit mindestens 5 Seelen gesammelt hat, werden diese verbraucht und ein Frostspeier beschworen.;This unit consumes 5 gathered souls to summon a Frostgoyle.
+unitability_name_soulgathererundying;Seelensammler: Unverwüstlichkeit;Soulgatherer: Undying
+unitability_hint_soulgathererundying;Solange diese Einheit eine Seele trägt hat sie Unverwüstlichkeit. §effect_undying_description;As long as this unit carries a soul it becomes undying. §effect_undying_description
+unitability_name_soulseeker;Seelensucher;Soul Seeker
+unitability_hint_soulseeker;Angegriffenen Einheiten wird ihre Seele entrissen, welche auf nahe verbündete Seelenspeicher überspringt und werden seelenlos. Dieser Effekt ist nur aktiv, wenn diese Einheit keine Seele trägt. §effect_soulless_description;The soul of attacked units is transferred to nearby allied soul carriers and they become soulless. This effect is only active as long as this unit carries no soul. §effect_soulless_description
+unitability_name_soulundertow;Seelensog;Soul Undertow
+unitability_hint_soulundertow;Diese Einheit entzieht alle 3 Sekunden bis zu zwei nahen Einheiten ihre Seele, macht sie seelenlos und speichert die Seelen. Priorisiert feindliche Ziele. §effect_soulless_description;This unit extracts souls of up to two nearby units every 3s, makes them soulless and saves the souls. Priortizes enemy units. §effect_soulless_description
+unitability_name_soulvortex;Seelenstrudel;Soul Vortex
+unitability_hint_soulvortex;Entreißt alle 5 Sekunden in einem riesigen Umkreis feindlichen Einheiten die Seele, macht sie seelenlos und verdoppelt und speichert die Seele. §effect_soulless_description;Rips out the soul of an enemy unit in a giant radius every 5 seconds, make it soulless and doubles and stores the soul. §effect_soulless_description
+unitability_name_splash;Bereichsschaden;Splash Damage
+unitability_hint_splash;Der Angriff betrifft auch Gegner im Umkreis um das Ziel.;Enemies near the target take damage as well.
+unitability_name_starfall;Orbitalabwurf;Orbital Drop
+unitability_hint_starfall;Diese Einheit stürzt aus dem Orbit auf das Schlachtfeld und vernichtet augenblicklich alle nicht-legendären Einheiten und Gebäude in der Landezone.;This unit falls from orbit on the battlefield and annihilates all non-legendary units and buildings in the landing zone instantly.
+unitability_name_steadyaim;Zielsicher;Steady Aim
+unitability_hint_steadyaim;Solange sich diese Einheit nicht bewegt erhöht sich ihre Reichweite über einen Zeitraum von 10 Sekunden um bis zu 8. Dieser Bonus verfällt sobald sich die Einheit bewegt.;While not moving this unit increases its range gradually by up to 8 over a time span of 10 seconds. This bonus is lost upon moving.
+unitability_name_stride;Übersteigen;Stride
+unitability_hint_stride;Diese Einheit ignoriert andere Einheiten beim laufen und steigt über sie hinweg;This unit ignores unit collision.
+unitability_name_summonsaplings;Saatlinge beschwören;Summon Saplings
+unitability_hint_summonsaplings;Beschwört 2 Saatlinge alle 13 Sekunden.;Summons 2 Saplings every 13s.
+unitability_name_surefire;Zielsicher;Surefire
+unitability_hint_surefire;Diese Einheit kann nicht geblendet werden.;This unit can‘t be blinded.
+unitability_name_timedlife;Beschränkte Lebensdauer;Limited lifetime
+unitability_hint_timedlife;Diese Einheit stirbt nach Ablauf von 17 Sekunden.;This unit dies after 17s seconds.
+unitability_name_timedlifebuilding;Beschränkte Lebensdauer;Limited lifetime
+unitability_hint_timedlifebuilding;Dieses Gebäude zerfällt nach Ablauf von 90 Sekunden.;This building vanishes after 90s.
+unitability_name_tremor;Erschütterung;Tremor
+unitability_hint_tremor;Die Attacken dieser Einheit lassen den Boden erzittern und fügen allen Einheiten in einem Kegel hinter ihrem Ziel Schaden zu.;The attacks of this unit shake the earth and deal damage to all units in a cone behind their target.
+unitability_name_walloflight;Wall des Lichts;Wall of Light
+unitability_hint_walloflight;Immer wenn diese Einheit geheilt wird, erhält die verbündete Einheit mit den geringsten, maximalen Leben, welche noch keinen Schildblock hat, im Umkreis einen Schildblock. §effect_shieldblock_description;Whenever this unit is healed, the allied unit with the least maximum health, which does not have a shield block, gain a shield block. §effect_shieldblock_description
+unitability_name_warminglight;Wärmendes Licht;Warming Light
+unitability_hint_warminglight;Die Bereichsangriffe dieser Einheit heilen verbündete Einheiten um 15 Leben.;The splash attack of this unit heal allied units by 15 health.
+unitability_name_wipe;Fortwischen;Wipe
+unitability_hint_wipe;Wenn diese Einheit ein Ziel mit weniger als 200 Leben angreift, fügt sie weniger Schaden zu, trifft aber alle Einheiten vor sich.;Whenever this unit attacks a target with less than 200 maximum HP, it instead attacks all units in front of it for less damage
+;;
+ok;Ok;Ok
+close;Schließen;Close
+back;Zurück;Back
+or;Oder;Or
+to_shop;Zum Shop;To the shop
+wait;Warten;Wait
+done;Fertig;Done
+cancel;Abbrechen;Cancel
+continue;Weiter;Continue
+copy_to_clipboard;In die Zwischenablage kopieren;Copy to clipboard
+delete;Löschen;Delete
+defeat;Niederlage;Defeat
+exit;Möchtest du Rise of Legions wirklich beenden?;Do you really want to exit Rise of Legions?
+loading;Lade;Loading
+password;Passwort;Password
+quit;Zurück zum Desktop;Exit to desktop
+save;Speichern;Save
+settings;Optionen;Settings
+username;Nutzername;Username
+victory;Sieg;Victory
+;;
+currency_gold;Credits;Credits
+currency_gold_hint;- Credits -\nDu verdienst Credits durch jedes Match, welches du bestreitest. Im Shop kannst du dafür freigeschaltete Karten erwerben.;- Credits -\nYou receive credits for each played match. You can spend them in the shop to buy unlocked cards.
+currency_diamonds;Kristalle;Crystals
+currency_diamonds_hint;- Kristalle -\nDu kannst Kristalle für echtes Geld im Shop erwerben. Dort kannst du sie dafür verwenden Karten direkt freizuschalten und zu kaufen.;- Crystals -\nYou can buy crystals for real money in the shop. Spend them to buy and unlock cards directly.
+currency_orb_black;Schwarzer Orbs;Black Orbs
+currency_orb_green;Grüne Orbs;Green Orbs
+currency_orb_red;Rote Orbs;Red Orbs
+currency_orb_blue;Blaue Orbs;Blue Orbs
+currency_orb_white;Weiße Orbs;White Orbs
+currency_essence;Essenz;Essence
+currency_free_exp;Freie Kartenerfahrung;Free card experience
+chat_request_add;Senden;Add
+chat_request_incoming;Möchte dich hinzufügen;wants to add you
+chat_request_waiting;Warte auf Annahme;Waiting for answer
+chat_status_csaway;Abwesend;Away
+chat_status_csbusy;Beschäftigt;Busy
+chat_status_csoffline;Offline;Offline
+chat_status_csonline;Online;Online
+chat_window_send;Senden;Send
+;;
+collection_item_btn_to_shop;Zum Shop;Buy in shop
+collection_nav_ecblack;Schwarze Legion;Black Legion
+collection_nav_ecgreen;Grüne Legion;Green Legion
+collection_nav_ecwhite;Weiße Legion;White Legion
+collection_nav_ecblue;Blaue Legion;Blue Legion
+collection_quest_block_hint;Schalte alle benötigten Karten frei, um Fortschritt bei dieser Quest zu machen.;Unlock all required cards to progress this quest.
+collection_requirements_caption;Shop-Freischaltquests;Shop Unlock Requirements
+;;
+card_detail_ascend;Aufsteigen;Ascend
+card_detail_ascend_locked_hint;Du benötigst mehr Credits oder musst mehr Karten opfern, um diese Karte aufsteigen zu lassen.;You need more credits or have to sacrifice more cards to ascend this card.
+card_detail_material_in_deck;Im Deck;In Deck
+card_detail_level;Opfern;Sacrifice
+card_detail_no_ascension_material;Du besitzt aktuell keine weiteren passenden Karten für den Aufstieg.;You currently have no further cards for the ascension.
+card_detail_ascension_max_league;Die Karte befindet sich auf der höchsten Stufe und kann nicht weiter aufsteigen.;The card has reached the highest tier and can‘t ascent further.
+card_detail_ascension_not_ready;Die Karte muss auf Level 5 sein, um aufsteigen zu können.;The card has to be level 5 in order to be ascended.
+card_detail_ascension_empty_sacrifice_list;Opfere Karten, um die Kosten des Aufstiegs zu verringern.;Sacrifice cards to reduce the cost of the ascension.
+card_detail_ascension_empty_sacrifice_list_ready;Die Karte kann allein mit Credits aufsteigen. §card_detail_ascension_empty_sacrifice_list;Use Credits to ascend this card. §card_detail_ascension_empty_sacrifice_list
+card_detail_no_push_material;Du besitzt aktuell keine weiteren passenden Karten für einen Erfahrungsschub.;You currently have no further cards for adding experience.
+card_stats_charge_count;Ladungen;Charges
+card_stats_charge_cooldown;Ladungsabklingzeit;Charge cooldown
+card_stats_cost;Kosten;Cost
+card_stats_tier;Phase;Stage
+card_stats_squad_size;Truppgröße;Squad size
+card_stats_health;Lebenspunkte;Health
+card_stats_armor;Rüstungsklasse;Armor
+card_stats_dps;SPS;DPS
+card_stats_attack_damage;Schaden pro Angriff;Damage per hit
+card_stats_attack_cooldown;Angriffsgeschwindigkeit;Attack speed
+card_stats_attack_range;Reichweite;Range
+;;
+closemessage;Zurück zum Desktop?;Return to desktop?
+deckbuilding_cardpool_pagecounter;Seite %d/%d;Page %d/%d
+deckbuilding_deck_add;Neues Deck erstellen;Add new deck
+deckbuilding_deck_close;Fertig;Done
+deckbuilding_deck_default_name;Mein Deck;My Deck
+deckbuilding_deckicon_list_caption;Wähle ein Icon für das Deck!;Choose an icon for this deck!
+deckbuilding_deck_card_add_color_exceed;Ein Deck darf maximal 2 Farben enthalten.;A deck must not contain more than 2 colors.
+deckbuilding_list_caption;Deckliste;Decklist
+decklist_delete_btn_hint;Deck löschen;Delete Deck
+decklist_delete_dialog_caption;Decklöschung bestätigen;Confirmation
+decklist_delete_dialog_text;Möchtest du folgendes Deck wirklich endgültig löschen?;Do you really want to delete the following deck?
+;;
+error_eoutofmemory;Es konnte nicht genug Arbeitsspeicher bereitgestellt werden.\n\nBitte beachte die Mindestvoraussetzungen für das Spiel. \nSchließe andere Programme während du Rise of Legions spielst, um mehr Arbeitsspeicher zur Verfügung zu haben. \nReduziere die Texturauflösung in den Optionen, um mehr Grafikspeicher zur Verfügung zu haben.\nWenn das Problem weiterhin besteht, kontaktiere uns und wir helfen dir gerne weiter.;There was not enough working memory.\n\n Please note the minimal requirements for the game.\nClose other application while playing Rise of Legions to maximize the availabe working memory.\nReduce the texture resolution in the settings to reduce the used video memory.\n If the problem persists, don‘t hesitate to contact us for help.
+error_caption;Fehler;Error
+error_core_lost_connection;Es tut uns Leid, aber die Verbindung zum Spieleserver ist abgebrochen. Das Spiel kann daher nicht mehr fortgesetzt werden.;Unfortunately the connection to the game server has been lost. Your recent game can not be continued. Please apologize for the inconvenience.
+errorcode_000;Undefinierter Fehler.;Undefined error.
+errorcode_001;Der Server antwortet nicht.;Server does not respond.
+errorcode_002;Zeitüberschreitung einer Anfrage an den Server.;A request has timed out.
+errorcode_003;Eine Anfrage an den Server wurde blockiert. Füge bitte Rise Of Legions der Ausnahmeliste deiner Firewall hinzu. Sollte das Problem weiter bestehen, kontaktiere uns.;A server request has been blocked. Please add an exception rule to your firewall for Rise of Legions. If the problem persists, please contact us.
+errorcode_010;Du bist nicht authentifiziert. Bitte starte das Spiel neu.;User is not authenticated.
+errorcode_011;Ein fehlerhafter Parameter wurde an den Server gesendet.;A parameter has bad format.
+errorcode_013;Das SteamOverlay ist deaktiviert. Bitte aktiviere es und starte danach Rise of Legions neu, um Käufe tätigen und den Chat nutzen zu können.;The steam overlay is disabled. Please activate it and restart Rise of Legions, to enable purchases and the chat.
+errorcode_020;Unbekannter Benutzername.;Unknown username.
+errorcode_021;Falsches Passwort.;Wrong password.
+errorcode_022;Du bist schon eingeloggt.;User is already logged in.
+errorcode_023;Dieser Spieler ist nicht auf deiner Freundesliste.;This user is not on your friendlist.
+errorcode_024;Unbekannte Freundschaftsanfrage.;Unknown friend request.
+errorcode_025;Invalider Empfänger der Freundschaftsanfrage.;Friendrequest has invalid receiver.
+errorcode_026;Der Spieler befindet sich schon auf deiner Freundschaftsliste.;You're already friends.
+errorcode_027;Das Team befindet sich nicht in der Queue.;Team is not in the queue.
+errorcode_028;Unbekanntes Matchmaking-Team.;Unknown matchmaking team.
+errorcode_029;Diese Aktion kann nur der Teamleiter durchführen.;Non leader performs leader operation.
+errorcode_030;Der Spieler ist schon Teil des Teams.;Already member of this matchmaking team.
+errorcode_031;Der Spieler wurde nicht vorgeschlagen.;Player has not been suggested.
+errorcode_032;Der Spieler ist nicht Teil des Teams.;Player is not a member of the team.
+errorcode_033;Unbekannter Spielmodus.;Unkown gamemode.
+errorcode_034;Spielmodus ist deaktiviert.;Disabled gamemode.
+errorcode_035;Diese Einladung ist ausgelaufen.;This invite has expired.
+errorcode_036;Spieler wurde nicht eingeladen.;Not invited player.
+errorcode_037;Einladung abgelehnt.;Invite has been rejected.
+errorcode_038;Invalide Einladung.;Invalid invite.
+errorcode_039;Dein Team befindet sich schon in der Queue.;Team is already in queue.
+errorcode_040;Es wurde ein für den Server unbekanntes Deck ausgewählt. Bitte starte den Client neu, falls der Fehler erneut auftritt.;The chosen deck is unknown from the server. Please restart your client, if this error occures again.
+errorcode_043;Beim Karten hinzufügen ist ein Fehler aufgetreten. Bitte versuche es erneut.;An error occured while adding a card to the deck. Please try again.
+errorcode_045;Die Karte steht nicht mehr zum Kauf zur Verfügung. Bitte starte deinen Client neu und versuche es erneut.;The card can‘t be bought anymore. Please restart your client, if this error occures again.
+errorcode_046;Der Kauf ist fehlgeschlagen.;The purchase failed.
+errorcode_055;Der Aufstieg der Karte ist fehlgeschlagen.;The ascension of the card failed.
+errorcode_062;Einladen fehlgeschlagen. Unbekannte Freund-ID.;Invite failed. Unknown friend id.
+errorcode_063;Eine Deckbeschränkung ist fehlgeschlagen.;A deck constraint is not fulfilled.
+errorcode_065;Leider ist das Spiel auf dem Server abgestürzt und konnte nicht erfolgreich beendet werden.;Unfortunately the game crashed and did not finish properly.
+errorcode_066;Die Quest konnte auf dem Server nicht gefunden werden.;The quest could not be found on the server.
+errorcode_067;Die Quest ist noch nicht abgeschlossen.;The quest is not finished, yet.
+errorcode_068;Die Belohnung der Quest wurde schon abgeholt.;The quest reward is already collected.
+errorcode_069;Die Quest konnte nicht gewechselt werden, da alle Wechsel verbraucht sind.;The quest could not be rerolled as no rerolls are available.
+errorcode_070;Die anzuzeigende Nachricht konnte auf dem Server nicht gefunden werden.;The message to be shown could not be found on the server.
+errorcode_071;Die Anhänge der Nachricht wurden schon eingesammelt.;The message attachments have been already collected.
+errorcode_072;Das Deck-Tier passt nicht zur gewählten Matchmaking-Warteschlange.;The deck tier does not match the chosen matchmaking queue.
+errorcode_073;Der Bonuscode ist leider ungültig. Bitte überprüfe, ob du alle Zeichen richtig eingegeben hast.;Unfortunately the bonus code is invalid. Please assure that all letters are typed correctly.
+errorcode_074;Dieser Bonuscode wurde leider schon verwendet und kann nicht erneut eingelöst werden.;Unfortunately this bonus code have already been redeemed and can‘t be used anymore.
+errorcode_075;Dein Account hat leider schon die maximale Anzahl an Bonuscodes diesen Typs eingelöst.;Your account unfortunately have already redeemed the maximum of this type of bonus codes.
+errorcode_076;Du hast dieses Icon noch nicht freigeschaltet und es kann daher nicht verwendet werden.;You didn‘t unlocked this icon yet. Thus it can‘t be used.
+errorcode_077;Es konnte kein neues Deck angelegt werden, da alle freigeschalteten Deckplätze belegt sind.;The new deck could not be created as all unlocked deck slots are occupied.
+errorcode_500;Ein interner Serverfehler ist aufgetreten.;An internal server error occured.
+;;
+exit_dialog_caption;Zurück zum Desktop;Exit to desktop
+exit_dialog_message;Möchtest du Rise of Legions wirklich beenden?;Do you really want to exit Rise of Legions?
+exit_dialog_dont_show_again;Bitte nicht mehr fragen;Don't ask again
+;;
+friendlist_add_new_friend_direct;Freundschaftsanfrage senden;Send friend request
+friendlist_add_new_friend_direct_confirmation_caption;Freund hinzugefügt;Friend added
+friendlist_add_new_friend_direct_confirmation_text;Die Freundschaftsanfrage wurde versendet. Sobald sie angenommen wurde, könnt ihr euch gegenseitig online sehen.;The friend request has been sent. After being accepted, you can see each other online.
+friendlist_add_new_friend;Freund einladen;Add a friend
+friendlist_add_new_friend_by_list;Per Steam;Via Steam
+friendlist_add_new_friend_by_code;Per Freund-ID;Via friend id
+friendlist_add_golems_caption;Freundschaftsanfrage abgelehnt!;Friend request rejected!
+friendlist_add_golems_text;Die Kristallgolems sind sehr eigenbrötlerisch und wollen mit Menschen nichts zu tun haben. Nimm es nicht persönlich.;Don't disturb Crystal Golems. Crystal Golems want to be left alone. Don't take it personally.
+friendlist_empty_description;Du hast aktuell noch keine Freunde hinzugefügt. Du kannst andere Spieler von Rise of Legions über ihre Freund-ID hinzufügen oder auch direkt, wenn ihr auf Steam befreundet seid.;You did not add any friends by now. You can add other players of Rise of Legions via their Friend-ID, or directly if you are connected in steam.
+friendlist_friend_id;Freund-ID: %d;Friend-ID: %d
+friendlist_playericon_list_caption;Wähle ein Icon für dein Profil!;Choose an icon for your profile!
+;;
+game_statistics_loading;Statistiken werden geladen...;Statistics are loading...
+gamemode;Wähle den Spielmodus!;Choose game mode!
+;;
+generic_loading_dialog_caption;Bitte warten;Please wait
+generic_loading_dialog_message;Lade…;Loading…
+;;
+gui_boosts_first_win_available;Der Bonus für den ersten Sieg des Tages ist bereit.;Daily first win bonus available.
+gui_boosts_first_win_time;Bonus für den ersten Sieg des Tages verfügbar in %s.;Daily first win bonus available in %s.
+gui_card_detail_charge_up;Opfern;Sacrifice
+gui_card_detail_league_up;Aufsteigen;Ascend
+gui_card_detail_level_up;Aufleveln;Level up
+gui_card_detail_level_up_max;Maximal aufleveln;Level up to maximum
+gui_card_detail_disenchant;Entzaubern;Disenchant
+gui_card_detail_sacrifice;Opfern;Sacrifice
+gui_card_ordering_foalphabetical;Alphabetisch (A-Z);Alphabetical (A-Z)
+gui_card_ordering_foalphabeticalreverse;Alphabetisch (Z-A);Alphabetical (Z-A)
+gui_card_ordering_foattack;Angriffsstärke;Attack
+gui_card_ordering_focost;Kosten;Cast costs
+gui_card_ordering_fodefense;Verteidigungsstärke;Defense
+gui_card_ordering_fopricediamonds;Kristall-Preis;Crystal-Price
+gui_card_ordering_fopricegold;Creditpreis;Credit-Price
+gui_card_ordering_fotech;Phase (I, II, III);Stage (I, II, III)
+gui_card_ordering_fotechreverse;Phase (III, II, I);Stage (III, II, I)
+gui_card_ordering_foutility;Unterstützungswert;Utility
+gui_card_daily_reward;Erhält beim nächsten Sieg Bonuserfahrung.;Gain bonus experience for the next victory.
+gui_card_daily_reward_wait;Täglicher Bonus verfügbar in %s.;Daily reward available in %s.
+gui_feedback_caption;Feedback;Feedback
+gui_feedback_submit;Absenden;Send
+gui_feedback_toggle_hint;Sende uns Feedback! Wir freuen uns über all deine Gedanken, sowohl positive als auch negative.;Send your feeback! We're glad to improve Rise of Legions based on player feedback :)
+gui_ingame_menu_caption;Spielmenü;Game menu
+gui_ingame_tech_hint;Die Phase erhöht sich nach Ablauf einer festen Zeit bis zu einem Maximum von 3. Beschwörungen und Zauber können nur gespielt werden, sobald ihre Phasenvoraussetzung erreicht wurde.;The stage increases after a fixed amount of time, giving you access to your more powerful summons and spells. (maximum level: 3)
+gui_load_main_menu;Lade Hauptmenü...;Loading main menu...
+gui_player_level_up_caption;Nächstes Level erreicht!;Level Up!
+gui_player_level_up_loot_receive_caption;Du erhältst:;You receive:
+gui_player_level_up_loot_caption;Wenn du Level %d erreichst, erhältst du:;By reaching level %d, you will receive:
+gui_settings_menu_graphics_deferred_shading;Verbesserter Renderer;Improved Renderer
+gui_settings_menu_graphics_distortion;Verzerrungseffekte;Distortion
+gui_settings_menu_graphics_experimental;Diese Option ist experimentell und kann die Leistung des Spiels stark beeinträchtigen.;This option is experimental and can have a heavy impact on performance.
+gui_settings_menu_graphics_fxaa;Anti-Aliasing (FXAA);Antialiasing (FXAA)
+gui_settings_menu_graphics_glow;Glow;Glow
+gui_settings_menu_graphics_gui_blur;Dynamische Menühintergründe;Dynamic menu backgrounds
+gui_settings_menu_graphics_shadows;Schattenqualität;Shadow quality
+gui_settings_menu_graphics_ssao;Streulichtverdeckung (SSAO);Ambient Occlusion
+gui_settings_menu_graphics_toon;Kantenbetonung;Toon border
+gui_settings_menu_graphics_unsharp_masking;Bild schärfen;Sharpen Image
+gui_settings_menu_graphics_window_mode;Fenstermodus;Window mode
+gui_settings_menu_graphics_shadowmode_sqhigh;Hoch;High
+gui_settings_menu_graphics_shadowmode_sqlow;Niedrig;Low
+gui_settings_menu_graphics_shadowmode_sqmedium;Mittel;Medium
+gui_settings_menu_graphics_shadowmode_sqoff;Aus;Off
+gui_settings_menu_graphics_shadowmode_squltrahigh;Ultra;Ultra
+gui_settings_menu_graphics_shadowmode_sqverylow;Sehr niedrig;Very Low
+;;
+hint_not_implemented;Dieses Feature ist noch nicht verfügbar.;This feature is not available yet.
+;;
+home_beta_title;Willkommen zur geschlossenen Beta von Rise of Legions!;Welcome to the Rise of Legions closed beta!
+home_beta_text;In den nächsten Wochen sammeln wir Feedback und legen den Fokus auf Stabilität, Serverkapazitäten und natürlich zerquetschen wir alle Bugs die ihr findet :D\n\nTritt unserem Discord bei und werde Teil der Diskussion!;Over the next weeks we will gather player feedback and focus on stability, serverload and of course bugs, bugs bugs :D\n\nJoin our Discord to be a part of the Discussion!
+home_crystal_sunday_title;Kristall-Sonntag;Crystal Sunday
+home_crystal_sunday_subtitle;Ereignis;Event
+home_crystal_sunday_date;6. Mai 2018;May 6th, 2018
+home_crystal_sunday_text;Diesen Sonntag werden 24h lang 60 Kristalle für jedes gewonnene PvP-Match (sowohl 1v1 als auch 2v2) ausgeschüttet!;This Sunday, for 24 hours all players will receive 60 crystals for each PvP match they win (both 1v1 and 2v2).
+home_crystal_sunday_countdown;Zeit bis zum Start;Time until event begins
+home_crystal_sunday_started;Das Ereignis läuft gerade!;The event is live!
+home_discord_text;Klicke hier, um unserem Discord-Server beizutreten;Click here to join our Discord-Server
+home_patch_notes_title;Patchnotizen vom;Patch Notes from
+home_patch_notes_text;Klicke hier, um die neuesten Patchnotizen zu lesen;Click here to read the latest patch notes
+;;
+interface;Interface;Interface
+;;
+idle_dialog_caption;Idle Legions;Idle Legions
+idle_dialog_message;Dein Deck ist noch unterwegs, um dir Ruhm, Ehre und ganz nebensächlich etwas Beute heimzubringen.;You deck is still on its way to gather fame, honor and mostly unimportant some loot for you.
+idle_dialog_action;Mission abschließen;Complete mission
+;;
+keyboard;Tastenbelegung;Keyboard
+;;
+league;Stufe;Tier
+league_plural;Stufen;Tiers
+league_1;Stein;Stone
+league_2;Bronze;Bronze
+league_3;Silber;Silver
+league_4;Gold;Gold
+league_5;Kristall;Crystal
+league_deck_hint;§league_%d: Die Karte mit der höchsten Stufe in einem Deck bestimmt die zugeordnete Stufe in PvP-Gefechten in der du mit diesem Deck spielst.;§league_%d: The highest card in your deck determines the tier you‘re playing in. (PvP)
+league_card_hint;§league_%d: Die Stufe einer Karte bestimmt zusammen mit dem Level die Stärke der Karte und die zugeordnete Stufe in PvP-Gefechten.;§league_%d: The league and level of a card determines its power and the tier you‘re playing in. (PvP)
+;;
+loading_initializing;Initialisiere;Initializing
+loading_finalizing;Finalisiere;Finalizing
+loading_asset_type_acModel;Modell;Model
+loading_asset_type_acTexture;Textur;Texture
+loading_asset_type_acXMLFile;XML-Datei;XML-File
+loading_asset_type_acScriptFile;Skript;Script
+loading_asset_type_acParticleEffect;Partikeleffekt;Particle Effect
+loading_asset_type_acShader;Shader;Shader
+loading_asset_type_acCompiledShader;Shader;Shader
+loading_tutorial_text_1;Baue Spawner auf dem Baufeld beim Nexus;Build Spawners on the Nexus grid
+loading_tutorial_text_2;Gib dein Gold für Beschwörungen und Zauber aus;Spend your coins to play units and spells
+loading_tutorial_text_3;Gib dein Seelengold für Spawner aus;Spend your soul coins to build spawners
+loading_tutorial_text_4;Ausgegebenes Gold wird in Seelengold umgewandelt;Spent coins are automatically converted into soul coins
+loading_tutorial_text_5;Um zum Nexus und zurück zu springen nutze:                                                       -;To jump to your base and back use:                                    -
+loginmenu_loginstate_connecting;Verbinde!;Connecting!
+loginmenu_loginstate_error;Undefinierter Fehler!;Unknown error!
+loginmenu_loginstate_invalid;Falscher Benutzername oder Passwort!;Wrong username or password!
+loginmenu_loginstate_no_connection;Konnte den Server nicht erreichen!;Could not reach server!
+loginmenu_loginstate_successful;Erfolgreich!;Login successful!
+remembercheck;Merken;Save
+loginmenu_remember_password_hint;ACHTUNG! Diese Option nur für einen privaten Rechner verwenden, da das Password auf der Festplatte gespeichert wird.;WARNING! Use this option only on your private computer because your password will be saved to disk.
+loginmenu_signup_hint;Dies öffnet den Browser mit der Registrationsseite von riseoflegions.com;This opens your browser with our registration page at riseoflegions.com
+mastervolumecaption;Gesamtlautstärke:;Master volume
+matchmaking_team_invite_message;Du wurdest von %s in ein Team eingeladen!;You have been invited by %s to join a team!
+;;
+main_menu_loading;Lade...;Loading...
+;;
+messages_soft_reset_subject;Account zurückgesetzt;Account Reset Compensation
+messages_soft_reset_text;Alle Accounts wurden für diese Stufe der Beta zurückgesetzt. Du erhältst natürlich all deine hart verdienten Kristalle zurück und dazu noch ein paar mehr für die Credits die du erspielt hast. Viel Spaß!;All accounts have been reset. You'll receive all of your hard earned crystals back though! (Plus some more for the amount of credits you earned) Have an awesome time!
+;;
+messagedialog_error_caption;Fehler;Error
+messagedialog_error_message_serverqueueerror;Es ist ein Fehler bei der Spielsuche aufgetreten. Bitte versuche es später erneut.;An error occured while searching for a game. Please try again later.
+navbar_menu_collection;Legionen;Legions
+navbar_menu_deckbuilding;Deckbuilder;Deckbuilder
+navbar_menu_inventory;Beute;Loot
+navbar_menu_play;Spielen;Play
+navbar_menu_play_queue_info;In Warteschlange seit %s;In queue %s
+navbar_menu_shop;Shop;Shop
+navbar_menu_tutorial;Tutorial;Tutorial
+;;
+notification_card_unlocked;wurde im Shop freigeschaltet!;has been unlocked in the shop!
+notification_friend_request;hat dir eine Freundschaftsanfrage geschickt!;has sent you a friend request!
+notification_close;Ok;Ok
+notification_message_loot_and_close;Einsammeln;Collect
+notification_reward_message;Du hast folgende Belohnung erhalten:;You received following reward:
+notification_reward_close;Juhu!;Yay!
+notification_card_unlocked_to_shop;Zum Shop;To the shop
+notification_caption_ntCardUnlock;Freischaltung!;Unlock!
+notification_caption_ntReward;Beute!;Loot!
+;;
+popupmenu_choose_playericon;Profilicon ändern;Change profile icon
+popupmenu_invite_to_game;Ins Team einladen;Invite to team
+popupmenu_kick_player;Vom Team entfernen;Kick player
+popupmenu_leave_team;Team verlassen;Leave team
+popupmenu_promote_player;Zum Anführer befördern;Promote to leader
+popupmenu_remove_friend;Entfernen;Remove
+popupmenu_send_message;Chat öffnen;Open chat
+queueabort;Abbrechen;Cancel
+;;
+quests_tutorial_caption;Tutorial;Tutorial
+quests_event_caption;Ereignis;Event
+quests_daily_caption;Täglich;Daily
+quests_daily_empty;Du hast für heute alle täglichen Quests geschafft.;You've completed all daily quests today.
+quests_weekly_caption;Wöchentlich;Weekly
+quests_weekly_empty;Du hast für diese Woche alle wöchentlichen Quests geschafft.;You've completed all weekly quests for this week.
+quests_collect;Belohnung abholen;Collect reward
+quests_collect_hint;Die Quest ist abgeschlossen. Hole jetzt deine Belohnung ab!;The quest is completed. Collect your reward now!
+quests_reroll;Quest ersetzen;Replace quest
+quests_reroll_empty;Du kannst heute keine Quests mehr ersetzen.;You can't replace quests anymore for today.
+quests_reroll_panel_hint;Du erhältst jeden Tag die Möglichkeit eine tägliche Quest zu wechseln und durch eine zufällige Andere zu ersetzen.;You have the option to replace one daily quest every day with a random one.
+quest_description_PLAYER_START_GAME_QUEST;Starte ein beliebiges Spiel;Play a game
+quest_description_PLAYER_BUY_CARD_QUEST;Kaufe eine beliebige Karte;Buy a card
+quest_description_PLAY_WHITE_CARDS;Spiele %d weiße Karten;Play %d white cards
+quest_description_PLAY_GREEN_CARDS;Spiele %d grüne Karten;Play %d green cards
+quest_description_PLAY_BLACK_CARDS;Spiele %d schwarze Karten;Play %d black cards
+quest_description_PLAY_BLUE_CARDS;Spiele %d blaue Karten;Play %d blue cards
+quest_description_PLACE_SPAWNERS;Spiele %d Spawner;Play %d spawners
+quest_description_SUMMON_UNITS;Beschwöre %d Einheiten;Summon %d units
+quest_description_PLAY_SPELLS;Spiele %d Zauber;Cast %d spells
+quest_description_WIN_3_PVE_GAMES;Gewinne %d Spiele im PvE;Win %d PvE matches
+quest_description_WIN_1_PVE_GAME;Gewinne %d Spiel im PvE;Win %d PvE match
+quest_description_WIN_3_GAMES_USING_PURE;Gewinne %d Spiele mit einem einfarbigen Deck;Win %d matches using a single-colored deck
+quest_description_WIN_1_GAME_USING_PURE;Gewinne %d Spiel mit einem einfarbigen Deck;Win %d match using a single-colored deck
+quest_description_WIN_3_PVP_GAME;Gewinne %d Spiele im PvP;Win %d pvp matches
+quest_description_WIN_1_PVP_GAME;Gewinne %d Spiel im PvP;Win %d pvp match
+quest_description_WIN_3_GAMES_USING_BLACK;Gewinne %d Spiele mit schwarzen Karten im Deck;Win %d matches using black cards
+quest_description_WIN_1_GAME_USING_BLACK;Gewinne %d Spiel mit schwarzen Karten im Deck;Win %d match using black cards
+quest_description_WIN_3_GAMES_USING_WHITE;Gewinne %d Spiele mit weißen Karten im Deck;Win %d matches using white cards
+quest_description_WIN_1_GAME_USING_WHITE;Gewinne %d Spiel mit weißen Karten im Deck;Win %d match using white cards
+quest_description_WIN_3_GAMES_USING_GREEN;Gewinne %d Spiele mit grünen Karten im Deck;Win %d matches using green cards
+quest_description_WIN_1_GAME_USING_GREEN;Gewinne %d Spiel mit grünen Karten im Deck;Win %d match using green cards
+quest_description_WIN_3_GAMES_USING_BLUE;Gewinne %d Spiele mit blauen Karten im Deck;Win %d matches using blue cards
+quest_description_WIN_1_GAME_USING_BLUE;Gewinne %d Spiel mit blauen Karten im Deck;Win %d match using blue cards
+quest_description_PLAY_10_GATLING_DRONES;Spiele %d Gatlingdrohnen;Summon %d Gatling Drones
+quest_description_WIN_5_GAMES;Gewinne %d Spiele;Win %d matches
+quest_description_WIN_2_GAMES;Gewinne %d Spiele;Win %d matches
+quest_description_TUTORIAL_1_NAVIGATE_PLAY;Öffne den Tab „Spielen“;"Open the tab ""Play"""
+quest_hint_TUTORIAL_1_NAVIGATE_PLAY;Klicke oben in der Navigationsleiste auf den Knopf mit der Aufschrift „Spielen“, um in das Menü zur Match-Vorbereitung zu gelangen.;"Click the button at the top navigation bar labelled ""Play"" to enter the menu for match preparation."
+quest_description_TUTORIAL_2_COLLECT_REWARD;Hole eine Questbelohnung ab;Collect a quest reward
+quest_hint_TUTORIAL_2_COLLECT_REWARD;Du erhältst die Belohnung von abgeschlossenen Quests, indem du im Questmenü mit der Maus über sie gehst und den Knopf „Belohnung abholen“ drückst.;"You receive your reward of completed quests by hovering them with the cursor and clicking the button ""Collect reward"""
+quest_description_TUTORIAL_4_REROLL_QUEST;Ersetze eine Quest;Replace a quest
+quest_hint_TUTORIAL_4_REROLL_QUEST;Du kannst pro Tag eine tägliche Quest ersetzen indem du mit der Maus über sie fährst und auf den gelben Kreispfeil klickst.;You can replace a daily quest by hovering over the quest and clicking the yellow arrow.
+quest_description_TUTORIAL_5_PLAY_TUTORIAL;Spiele das PvE-Tutorial-Szenario;Play the tutorial PvE match
+quest_hint_TUTORIAL_5_PLAY_TUTORIAL;Klicke oben in der Navigationsleiste auf den Knopf mit der Aufschrift „Spielen“. Dann wähle PvE, selektiere über den Moduswähler das Szenario „Tutorial“, wähle dein Deck und drücke auf „Start“.;"Click the button at the top navigation bar labelled ""Play"". Select PvE, choose the scenario ""Tutorial"", pick a deck and press ""Start""."
+quest_description_TUTORIAL_6_CARD_MAX_LEVEL;Bringe eine Karte auf Level 5;Play a card to level 5
+quest_hint_TUTORIAL_6_CARD_MAX_LEVEL;Für jedes Spiel, welches du abschließt, erhalten alle Karten im gewählten Deck Erfahrungspunkte. Sie können so Level aufsteigen, bis zu einem Maximum von 5, wobei sich ihre Kosten und Abklingzeiten reduzieren.;For every game you complete, all cards in the chosen deck gain experience points and level up to a maximum level of 5. For each level their costs or cooldowns are reduced.
+quest_description_TUTORIAL_7_NAVIGATE_DECKBUILDER;Öffne den Tab „Deckbuilder“;"Open the tab ""Deckbuilder"""
+quest_hint_TUTORIAL_7_NAVIGATE_DECKBUILDER;Klicke oben in der Navigationsleiste auf den Knopf mit der Aufschrift „Deckbuilder“, um in das Menü zur Deckbearbeitung zu gelangen.;"Click the button at the top navigation bar labelled ""Deckbuilder"" to enter the menu for deck editing."
+quest_description_TUTORIAL_8_DECK_ADD_CARD;Füge eine Karte einem Deck hinzu;Add a card to a deck
+quest_hint_TUTORIAL_8_DECK_ADD_CARD;Öffne ein bestehendes oder erstelle ein neues Deck im Deckbuilder. Dann klicke auf eine nicht ausgegraute Karte im Kartenpool, um sie dem Deck hinzuzufügen. Du kannst maximal zwei Farben gleichzeitig in einem Deck spielen.;Open an existing or create a new deck in the deckbuilder. Then click at a non greyed our card to add it to you deck. You can only combine two colors at max in one deck.
+quest_description_TUTORIAL_9_CARD_ASCEND;Lasse eine Karte aufsteigen;Ascend a card
+quest_hint_TUTORIAL_9_CARD_ASCEND;Klicke im Deckbuilder mit der rechten Maustaste auf eine Karte welche Level 5 ist. §quest_hint_mixin_ascension;Click with the right mouse button at a level 5 card in the deckbuilder. §quest_hint_mixin_ascension
+quest_description_TUTORIAL_10_NAVIGATE_COLLECTION;Öffne den Tab „§navbar_menu_collection“;"Open the tab ""§navbar_menu_collection"""
+quest_hint_TUTORIAL_10_NAVIGATE_COLLECTION;Klicke oben in der Navigationsleiste auf den Knopf mit der Aufschrift „§navbar_menu_collection“, um in das Menü für die Kartenfreischaltung zu gelangen.;"Click the button at the top navigation bar labelled ""§navbar_menu_collection"" to enter the menu for card unlocks."
+quest_description_TUTORIAL_11_CARD_UNLOCK;Schalte eine Karte frei;Unlock a card
+quest_hint_TUTORIAL_11_CARD_UNLOCK;Du kannst neue Karten über das Erfüllen von Freischaltquests im Shop entsperren. Um deinen Fortschritt der benötigten Aufgaben für eine Karte zu sehen, gehe in die Legionsübersicht und klicke auf eine gesperrte Karte im Baum.;You can unlock new cards in the shop by completing their unlock quests. Your progress of them can be found in the legion trees in the legion overview.
+quest_description_TUTORIAL_12_NAVIGATE_SHOP;Öffne den Tab „Shop“;"Open the tab ""Shop"""
+quest_hint_TUTORIAL_12_NAVIGATE_SHOP;Klicke oben in der Navigationsleiste auf den Knopf mit der Aufschrift „Shop“, um in das Menü für den Kauf von Karten, Premiumwährung und anderen Dingen zu gelangen.;"Click the button at the top navigation bar labelled ""Shop"" to enter the menu for purchasing cards, crystals and more."
+quest_description_TUTORIAL_13_CARD_BUY;Kaufe eine Karte;Buy a card
+quest_hint_TUTORIAL_13_CARD_BUY;Gehe in den Shop, klicke auf eine beliebige freigeschaltete Karte und kaufe sie für eine Währung deiner Wahl.;Visit the shop, click on any unlocked card and purchase it with any currency.
+quest_description_TUTORIAL_14_NAVIGATE_SHOP_CRYSTALS;Öffne den Tab „Kristalle“ im Shop;"Open the tab ""Crystals"" in the shop"
+quest_hint_TUTORIAL_14_NAVIGATE_SHOP_CRYSTALS;Klicke oben in der Navigationsleiste auf den Knopf mit der Aufschrift „Shop“. Dann klicke in der Unternavigationsleiste auf den Knopf mit der Aufschrift „Kristalle“.;"Click the button at the top navigation bar labelled ""Shop"". Then click in the sub navigation bar at the button labelled ""Crystals"", to enter the menu to purchase premium currency."
+quest_description_TUTORIAL_15_ADD_FRIEND;Füge einen Freund deiner Freundesliste hinzu;Add a friend to your friendlist
+quest_hint_TUTORIAL_15_ADD_FRIEND;Öffne rechts unten die Freundesliste und klicke auf den Button „Freund hinzufügen“. Im folgenden Menü kannst du deine Steamfreunde die Rise of Legions spielen oder beliebige andere Spieler mit ihrer Freundes-ID hinzufügen. Deine Freundes-ID siehst du in der Freundesliste ganz oben.;"Open the friend list by clicking the button at the bottom right corner. Then click the button ""Add friend"" to open the dialog to add your steam friends which are playing Rise of Legions or any player by the friend ID. The friend ID can be found topmost in the friend list."
+quest_description_TUTORIAL_16_CARD_LEVEL_TRIBUTE;Opfere Karten als Tribut für eine andere Karte;Tribute cards into another card
+quest_hint_TUTORIAL_16_CARD_LEVEL_TRIBUTE;Klicke im Deckbuilder mit der rechten Maustaste auf eine Karte, welche noch nicht Level 5 ist. Im folgenden Menü kannst du beliebige andere Karten opfern, um der Karte Erfahrung zu geben. Nutze die Möglichkeit, um schneller voran zu kommen und deine Lieblingskarten mit ungenutzten Karten zu verbessern!;Click with the right mouse button at a card with a level smaller than 5 in the deckbuilder. In the following dialog you can sacrifice any other card to increase the experience of the card, accelerating the progress. Sacrifice cards you don't need to improve your favorite cards!
+quest_description_TUTORIAL_17_ASCEND_SILVER;Lass eine Karte auf Silber aufsteigen;Ascend a card to silver
+quest_hint_TUTORIAL_17_ASCEND_SILVER;Klicke im Deckbuilder mit der rechten Maustaste auf eine Bronze-Karte welche Level 5 ist. §quest_hint_mixin_ascension höherwertige Beute!;Click with the right mouse button at a level 5 bronze card in the deckbuilder. §quest_hint_mixin_ascension
+quest_description_TUTORIAL_18_ASCEND_GOLD;Lass eine Karte auf Gold aufsteigen;Ascend a card to gold
+quest_hint_TUTORIAL_18_ASCEND_GOLD;Klicke im Deckbuilder mit der rechten Maustaste auf eine Silber-Karte welche Level 5 ist. §quest_hint_mixin_ascension höherwertige Beute!;Click with the right mouse button at a level 5 silver card in the deckbuilder. §quest_hint_mixin_ascension
+quest_description_TUTORIAL_19_ASCEND_CRYSTAL;Lass eine Karte auf Kristall aufsteigen;Ascend a card to crystal
+quest_hint_TUTORIAL_19_ASCEND_CRYSTAL;Klicke im Deckbuilder mit der rechten Maustaste auf eine Gold-Karte welche Level 5 ist. §quest_hint_mixin_ascension höherwertige Beute!;Click with the right mouse button at a level 5 gold card in the deckbuilder. §quest_hint_mixin_ascension
+quest_description_TUTORIAL_SET_PROFILE_ICON;Lege dein Profilicon fest;Choose a profile icon
+quest_hint_TUTORIAL_SET_PROFILE_ICON;Klicke mit der rechten Maustaste auf dein Profilicon oben rechts in der Navigationsleiste und wähle den Menüpunkt „§popupmenu_choose_playericon“ um dein Profilicon zu ändern.;"Click with the right mouse button at your profile icon top right at the navigation bar and press ""§popupmenu_choose_playericon"" to change your profile icon."
+quest_description_TUTORIAL_SET_DECK_ICON;Lege das Icon für ein Deck fest;Choose a deck icon
+quest_hint_TUTORIAL_SET_DECK_ICON;Öffne ein Deck im Deckbuilder und klicke auf das Deckicon unten rechts, um ein neues Symbol auszuwählen.;Open a deck in the deckbuilder and click at the deck icon at the bottom right to choose a new icon.
+quest_description_TUTORIAL_SET_DECK_NAME;Lege den Namen für ein Deck fest;Choose a deck name
+quest_hint_TUTORIAL_SET_DECK_NAME;Öffne ein Deck im Deckbuilder und klicke auf den Namen unten rechts, um ihn zu verändern.;Open a deck in the deckbuilder and click at the deck name at the bottom right to change it.
+quest_hint_mixin_ascension;Im folgenden Dialog kannst du gleiche Karten auf der gleichen Stufe opfern, um die Karte auf die nächste Stufe aufsteigen zu lassen. Wenn du in höheren Stufen spielst, erhältst du Zugang zu mehr Karten und bekommst höherwertige Beute!;In the following dialog you can sacrifice same cards of the tier to ascend the card to the next tier. While playing in higher tiers you gain access to more cards and receive more valuable loot!
+quest_description_EVENT_AEGIS_1;Gewinne %d Spiele mit blauen Karten im Deck;Win %d matches using blue cards
+quest_description_EVENT_AEGIS_2;Fülle %d mal Munition bei einem Gebäude nach;Refill %d times ammunition of a building
+quest_description_EVENT_AEGIS_3;Töte %d Ziele mit dem Raketenwerfer;Kill %d targets with the missile turret
+quest_description_EVENT_AEGIS_4;Schließe alle Ereignisquests ab;Complete all event quests
+;;
+reconnect_message;Leider wurde die Verbindung zum Rise of Legions Server verloren, möchtest du sie wiederherstellen?;Unfortunately the connection to the Rise of Legions Server has been lost. Do you want to reconnect?
+reconnect_reconnect_button_caption;Wiederverbinden;Reconnect
+register;Nicht registriert? Hier klicken!;Not registered? Click here!
+ranking_streak_lose;Pechsträhne -1 Malusschild!;Lose Streak -1 Malus Shield!
+ranking_streak_loses;Pechsträhne -2 Malusschilde!;Lose Streak -2 Malus Shield!
+ranking_rank_down;Rang abgestiegen!;Descended Rank!
+ranking_rank_up;Rang aufgestiegen!;Ascended Rank!
+ranking_streak_win;Siegesserie +1 Bonusschild!;Win Streak +1 Bonus Shield!
+ranking_streak_wins;Siegesserie +2 Bonusschilde!;Win Streak +2 Bonus Shield!
+rewardscreen_experience_to_go;%d Erfahrung bis zum nächsten Level;%d experience to next level up
+reward_screen_experience_max;Maximales Level erreicht!;Max level reached!
+rewardscreen_first_win_time;Täglicher Sieg verfügbar in %s;Daily First Win in %s
+rewardscreen_first_win_used;Täglicher Sieg (+500);Daily First Win (+500)
+rewardscreen_matchtime;Rundenzeit %s;Matchtime %s
+reward_loot_caption;Wähle deine Belohnung!;Choose your reward!
+reward_loot_choose;Wählen;Choose
+reward_loot_locked_hint;Du kannst diese Karte nicht wählen, da du sie noch nicht freigeschaltet hast. Schalte möglichst viele Karten frei, um immer die volle Auswahl zu haben!;You can‘t choose this card, because you didn‘t unlock it yet. Unlock as many cards as possible to always have access to all choices!
+;;
+server_down_title;Rise of Legions ist momentan offline;Rise of Legions is currently offline
+server_down_text;Das genaue Datum der nächsten Stufe der geschlossenen Beta wird bald angekündigt. Tritt unserem Discord-Server bei, um die aktuellsten Nachrichten über Rise of Legions zu erhalten!;The exact date of the next stage of the closed beta will be announced soon. Join our Discord to get the latest news about Rise of Legions!
+;;
+settings_caption;Einstellungen;Settings
+settings_menu_category_gameplay;Gameplay;Gameplay
+settings_menu_category_graphics;Grafik;Graphics
+settings_menu_category_sound;Sound;Sound
+settings_menu_category_keybinding;Tastaturbelegung;Keybindings
+settings_need_restart_hint;Änderungen an dieser Einstellung werden erst nach einem Neustart des Spiels aktiv!;Changes to this setting are only applied after restarting the game!
+settingsgameplayclipcursor;Maus einfangen;Confine cursor
+settingsgameplayclipcursorhint;(nur im Fenstermodus) Der Mauscursor wird im Fenster eingefangen und kann es nicht verlassen. Deaktiviert das Scrollen am Rand des Fensters.;(only in windowed mode) Confines the cursor to the game window. Deactivates borderscrolling.
+settingsgameplaydragwavetemplates;Drag and Drop Platzierung;Drag and Drop unit placement.
+settingsgameplaydragwavetemplateshint;Einheiten können aus der Leiste auf das Feld gezogen werden, um sie zu platzieren.;Units can be played by drag and drop.
+settingsgameplayendlessbuild;Auto Mehrfach-Platzierung;Multiplacing of units
+settingsgameplayendlessbuildhint;Einheiten werden nach der Platzierung nicht abgewählt und können so mehrfach nacheinander platziert werden.;Units won't be deselected after placing them, so multiple units can be placed easily.
+SettingsGameplayShowEffectRadius;Effektradien anzeigen;Show areas of effect
+SettingsGameplayShowEffectRadiusHint;Der Wirkungsbereich eines Effektes wird angezeigt.;The visualisation of the area of effect is shown.
+settingsgameplayhidetutorial;Tutorial-Hinweise verstecken;Hide Tutorial Buttons
+settingsgameplayhidetutorialhint;Die Tutorial-Knöpfe werden im Interface ausgeblendet.;Hides all tutorial buttons in the ingame interface.
+settingsgameplaykeybindingmode;Alternative Steuerung;Alternative controls
+settingsgameplaykeybindingmodehint;WASD wird zum umschauen verwendet und die Zauber sind auf QERF gelegt statt auf QWER.;WASD can now be used to move the camera, spells are usable via QERF instead of QWER.
+settingsgameplayrightclickpanning;Umsehen mit der rechten Maustaste;Camera panning using the right mouse button.
+settingsgameplayrightclickpanninghint;Durch das Halten der rechten Maustaste kann die Kamera bewegt werden.;Moving the mouse while holding the right mouse button moves the camera as well.
+settings_general_has_secret_access;Geheimer Zugang zur Beta;Secret access to the beta
+settings_gameplay_fixed_team_colors;Feste Teamfarben;Fixed team colors
+settings_gameplay_fixed_team_colors_hint;Wenn gewählt, spielst du immer Blau und deine Gegner sind immer Rot. Ansonsten bestimmt die Startposition die Farbe.;When selected, your units will always appear as blue to and enemy units as red. If not selected, your starting position determines the team color (Bottom blue/Top red).
+settings_gameplay_healthbarmode_caption;Lebensbalken;Healthbars
+settings_gameplay_healthbarmode_hmNone;Immer ausblenden;Hide always
+settings_gameplay_healthbarmode_hmDamaged;Nur verletzte Einheiten;Only injured units
+settings_gameplay_healthbarmode_hmAlways;Immer anzeigen;Show always
+settings_gameplay_dropzonemode_caption;Beschwörungszonen;Summoning Zones
+settings_gameplay_dropzonemode_dzall;Komplett;All
+settings_gameplay_dropzonemode_dzarea;Nur Bereich;Only Area
+settings_gameplay_dropzonemode_dzcursor;Nur Cursor;Only Cursor
+settings_gameplay_dropzonemode_dzhide;Ausblenden;Hide
+settings_gameplay_clickprecision_caption;Selektionspräzision;Selection Precision
+settings_gameplay_clickprecision_hint;Steuert die Klickpräzision bei der Selektion einzelner Einheit. Wenn sie größer eingestellt wird, können Einheiten auch durch Klicks in der Nähe ausgewählt und angezielt werden.;Controls the click precision at targeting single units. If it is set wider, units can be selected and targeted even by clicking near to them.
+settings_gameplay_clickprecision_cpPrecise;Präzise;Precise
+settings_gameplay_clickprecision_cpExtended;Erweitert;Extended
+settings_gameplay_clickprecision_cpWide;Großflächig;Wide
+settings_gameplay_technical_panel;FPS und Ping anzeigen;Show framerate and ping
+settings_gameplay_technical_panel_hint;Wenn aktiviert wird die aktuelle Framerate pro Sekunde und der Ping zum Server links oben in der Ecke angezeigt.;If active, the current framerate per second and the ping to the server is shown in the top left corner.
+settings_graphics_vsync;Vertikale Synchronisation;Vertical synchronization
+settings_graphics_vsync_hint;Passt die Bildwiederholfrequenz an den Monitor an. Bei hohen Frameraten wird das Bild dadurch stabiler und ruckelfreier, bei geringen Frameraten oder manchen Systemen kann diese Option zu negativen Einflüssen führen.;Adjusts the frame rate to be synchronized with the refresh rate of the monitor. At high framerates can lead to a smoother and more stable result, but can have a negative effect at low frame rates and some systems.
+settings_graphics_texture_quality;Texturqualität;Texture quality
+settings_graphics_texture_quality_tqMaximum;Maximum;Maximum
+settings_graphics_texture_quality_tqHigh;Hoch;High
+settings_graphics_texture_quality_tqMedium;Mittelmäßig;Medium
+settings_graphics_texture_quality_tqLow;Gering;Low
+settings_graphics_texture_quality_tqMinimum;Minimal;Minimum
+settings_keybinding_dialog_caption;Tastenbelegung ändern;Change keybinding
+settings_keybinding_dialog_apply;Anwenden;Apply
+settings_keybinding_dialog_cancel;Abbrechen;Cancel
+settings_keybinding_dialog_title;Neubelegung für\n„%s“;"Rebind for\n""%s"""
+settings_keybinding_kbScreenshot_caption;Bildschirmfoto aufnehmen;Make Screenshot
+settings_keybinding_kbDeckslot01_caption;Karte 1 wählen;Select card 1
+settings_keybinding_kbDeckslot02_caption;Karte 2 wählen;Select card 2
+settings_keybinding_kbDeckslot03_caption;Karte 3 wählen;Select card 3
+settings_keybinding_kbDeckslot04_caption;Karte 4 wählen;Select card 4
+settings_keybinding_kbDeckslot05_caption;Karte 5 wählen;Select card 5
+settings_keybinding_kbDeckslot06_caption;Karte 6 wählen;Select card 6
+settings_keybinding_kbDeckslot07_caption;Karte 7 wählen;Select card 7
+settings_keybinding_kbDeckslot08_caption;Karte 8 wählen;Select card 8
+settings_keybinding_kbDeckslot09_caption;Karte 9 wählen;Select card 9
+settings_keybinding_kbDeckslot10_caption;Karte 10 wählen;Select card 10
+settings_keybinding_kbDeckslot11_caption;Karte 11 wählen;Select card 11
+settings_keybinding_kbDeckslot12_caption;Karte 12 wählen;Select card 12
+settings_keybinding_kbSpellCast_caption;Gewählte Karte ausspielen;Play selected card
+settings_keybinding_kbSpellCastRepeat_caption;Gewählte Karte wiederholt ausspielen;Play selected card multiple
+settings_keybinding_kbUnitSelect_caption;Einheit selektieren;Select unit
+settings_keybinding_kbMainAction_caption;Hauptaktion;Main action
+settings_keybinding_kbSecondaryAction_caption;Nebenaktion;Secondary action
+settings_keybinding_kbMainCancel_caption;Abbruch;Cancel
+settings_keybinding_kbNexusJump_caption;Zum Nexus und zurück springen;Jump to nexus and back
+settings_keybinding_kbScoreboardHold_caption;Spielinformationen anzeigen;Show match information
+settings_keybinding_kbGUIToggle_caption;UI ein-/ausblenden;Toggle user interface
+settings_keybinding_kbSandboxGUIToggle_caption;Sandbox-UI ein-/ausblenden;Toggle sandbox ui
+settings_keybinding_kbCameraLeft_caption;Nach links scrollen;Move left
+settings_keybinding_kbCameraUp_caption;Nach oben scrollen;Move up
+settings_keybinding_kbCameraRight_caption;Nach rechts scrollen;Move right
+settings_keybinding_kbCameraDown_caption;Nach unten scrollen;Move down
+settings_keybinding_kbCameraLaneLeft_caption;Entlang des Weges nach links scrollen;Move left along lane
+settings_keybinding_kbCameraLaneRight_caption;Entlang des Weges nach rechts scrollen;Move right along lane
+settings_keybinding_kbCameraRise_caption;Kamera aufsteigen;Move higher
+settings_keybinding_kbCameraFall_caption;Kamera senken;Move lower
+settings_keybinding_kbCameraPanning_caption;Kamera schwenken;Pan camera
+settings_keybinding_kbCameraMoveTo_caption;Kamera auf Zielpunkt zentrieren;Center camera to point
+settings_keybinding_kbCameraResetZoom_caption;Zoomstufe der Kamera zurücksetzen;Reset camera zoom
+settings_keybinding_kbChangeCommander01_caption;Spieler 1 wählen;Select player 1
+settings_keybinding_kbChangeCommander02_caption;Spieler 2 wählen;Select player 2
+settings_keybinding_kbChangeCommander03_caption;Spieler 3 wählen;Select player 3
+settings_keybinding_kbChangeCommander04_caption;Spieler 4 wählen;Select player 4
+settings_keybinding_kbChangeCommander05_caption;Spieler 5 wählen;Select player 5
+settings_keybinding_kbChangeCommander06_caption;Spieler 6 wählen;Select player 6
+settings_keybinding_kbChangeCommander07_caption;Spieler 7 wählen;Select player 7
+settings_keybinding_kbChangeCommander08_caption;Spieler 8 wählen;Select player 8
+settings_keybinding_kbChangeCommander09_caption;Spieler 9 wählen;Select player 9
+settings_keybinding_kbChangeCommander10_caption;Spieler 10 wählen;Select player 10
+settings_keybinding_kbChangeCommander11_caption;Spieler 11 wählen;Select player 11
+settings_keybinding_kbChangeCommander12_caption;Spieler 12 wählen;Select player 12
+settings_keybinding_kbDrawTerrainToggle_caption;Terrain ein-/ausblenden;Toggle terrain
+settings_keybinding_kbDrawWaterToggle_caption;Wasser ein-/ausblenden;Toggle water
+settings_keybinding_kbDrawVegetationToggle_caption;Vegetation ein-/ausblenden;Toggle vegetation
+settings_keybinding_kbDeferredShadingToggle_caption;Deferred Shading ein-/ausschalten;Toggle deferred shading
+settings_keybinding_kbNormalmappingToggle_caption;Normalmapping ein-/ausschalten;Toggle normal mapping
+settings_keybinding_kbShadowTechniqueToggle_caption;Schatten ein-/ausschalten;Toggle shadows
+settings_keybinding_kbTerrainEditor_caption;Terrain-Editor öffnen;Open terrain editor
+settings_keybinding_kbGUIEditor_caption;GUI-Editor öffnen;Open ui editor
+settings_keybinding_kbPostEffectEditor_caption;Posteffect-Editor öffnen;Open posteffect editor
+settings_keybinding_kbForceGameTick_caption;Gametick senden;Send game tick
+settings_keybinding_kbHitboxToggleVisibility_caption;Hitboxen ein-/ausblenden;Toggle hitboxes
+settings_keybinding_kbHealthbarsToggleVisibility_caption;Lebensbalken ein-/ausblenden;Toggle health bars
+settings_keybinding_kbPathfindingVisualize_caption;Pathfinding ein-/ausblenden;Toggle pathfinding
+settings_keybinding_kbPathfindingCoordinate_caption;Pathfindingkoordinaten ein-/ausblenden;Toggle pathfinding coordinates
+settings_keybinding_kbPathfindingFlow_caption;Pathfindingflow ein-/ausblenden;Toggle pathfinding flow
+settings_keybinding_kbPathfindingIncVisibleLength_caption;Pathfindinglänge erhöhen;Increase pathfinding length
+settings_keybinding_kbPathfindingDecVisibleLength_caption;Pathfindinglänger verringern;Decrease pathfinding length
+settings_sound_caption;Spielsound;Game sound
+settings_sound_meta_caption;Menüsound;Menu sound
+settings_sound_check;Sound aktivieren;Activate Sound
+settings_sound_background_check;Im Hintergrund aktiv;Active in background
+settings_sound_effect_check;Effekte aktivieren;Activate Effects
+settings_sound_gui_check;UI-Sounds aktivieren;Activate GUI-Sounds
+settings_sound_music_check;Musik aktivieren;Activate Music
+revertsettings;Zurücksetzen;Revert to default
+;;
+shop_balance_after_purchase;Kontostand nach Kauf:;Balance after purchase:
+shop_currency_name_currency_diamonds;Kristalle;Crystals
+shop_currency_name_currency_gold;Gold;Coins
+shop_currency_name_currency_orb_black;schwarze Orbs;black Orbs
+shop_currency_name_currency_orb_green;grüne Orbs;green Orbs
+shop_currency_name_currency_orb_red;rote Orbs;red Orbs
+shop_currency_name_currency_orb_blue;blaue Orbs;blue Orbs
+shop_currency_name_currency_orb_white;weiße Orbs;white Orbs
+shop_item_buy_currency_description;Bekomme %d %s für deinen Account gutgeschrieben.;Receive %d %s for your account.
+shop_item_buy_exp_description;Bekomme %d EXP für deinen Account gutgeschrieben.;Receive %d EXP for your account.
+shop_item_name_Diamonds_0100;Kristallsplitter;Crystal Shards
+shop_item_name_Diamonds_0400;Kristallschwung;Crystal Batch
+shop_item_name_Diamonds_1500;Kristallhaufen;Crystal Pile
+shop_item_name_Diamonds_3500;Kristallsack;Crystal Bag
+shop_item_name_Diamonds_8000;Kristallkiste;Crystal Chest
+shop_item_card_offer_locked_hint;Schalte die Karte in der Sammlung frei, um sie mit Credits kaufen zu können!;Unlock the card to gain the purchase by Credits option!
+shop_item_card_own_count_hint;Anzahl der Karten dieses Typs im Besitz.;Number of owned cards of this type.
+shop_item_diamonds_bonus;+%s Bonus;+%s bonus
+shop_item_sold_out;Im Besitz;Owned
+shop_message_diamonds;Sobald Rise of Legions diesen Herbst im Early Access erscheint, werden alle bestehenden Accounts zurückgesetzt. Natürlich behältst du alle bis dahin gekauften Kristalle und bekommst sogar 10% mehr als Bonus für deine Unterstützung in der Beta!;There will be a reset of all accounts when Rise of Legions launches into Early Access this fall. You will however receive all of your purchased crystals plus 10% back into your account on launch day!
+shop_nav_scDiamonds;Kristalle;Crystals
+shop_nav_scCredits;Credits;Credits
+shop_nav_scCards;Karten;Cards
+shop_nav_scCurrency;Credits;Credits
+shop_nav_scIcons;Icons;Icons
+shop_nav_scBonuscode;Bonuscode einlösen;Redeem bonus code
+shop_purchase_dialog_caption;Kaufstatus;Purchase state
+shop_purchase_dialog_psProcessing;Kauf wird bearbeitet...;Purchase in progress...
+shop_purchase_dialog_psSuccess;Kauf erfolgreich abgeschlossen!;Purchase successful!
+shop_purchase_dialog_psAborted;Kauf wurde abgebrochen!;Purchase aborted!
+shop_purchase_dialog_psFailed;Kauf fehlgeschlagen!;Purchase failed!
+shop_redeem_dialog_redeem;Einlösen;Redeem
+shop_redeem_dialog_caption;Bonuscode einlösen;Redeem bonus code
+shop_redeem_dialog_loading_caption;Bonuscode einlösen;Redeem bonus code
+shop_redeem_dialog_loading_message;Löse Code ein…;Redeeming code …
+;;
+scenario_user_name_pve_attack_solo;Kristalllegion;Crystal Legion
+scenario_deck_name_pve_attack_solo_1;Kieselsplitter (Stein);Pebble Splinter (Stone)
+scenario_deck_name_pve_attack_solo_2;Geröllfragment (Bronze);Debris Fragment (Bronze)
+scenario_deck_name_pve_attack_solo_3;Steinschlag (Silber);Falling Rock (Silver)
+scenario_deck_name_pve_attack_solo_4;Felsrutsch (Gold);Rock Slide (Gold)
+scenario_deck_name_pve_attack_solo_5;Granitlawine (Kristall);Granite Avalanche (Crystal)
+scenario_user_name_pve_attack;Kristalllegion;Crystal Legion
+scenario_deck_name_pve_attack_1;Kieselsplitter (Stein);Pebble Splinter (Stone)
+scenario_deck_name_pve_attack_2;Geröllfragment (Bronze);Debris Fragment (Bronze)
+scenario_deck_name_pve_attack_3;Steinschlag (Silber);Falling Rock (Silver)
+scenario_deck_name_pve_attack_4;Felsrutsch (Gold);Rock Slide (Gold)
+scenario_deck_name_pve_attack_5;Granitlawine (Kristall);Granite Avalanche (Crystal)
+scenario_deck_name_IDLE_GAME_1;Kristalllegion;Crystal Legion
+scenario_deck_name_IDLE_GAME_2;Kristalllegion;Crystal Legion
+scenario_deck_name_IDLE_GAME_3;Kristalllegion;Crystal Legion
+scenario_deck_name_IDLE_GAME_4;Kristalllegion;Crystal Legion
+scenario_deck_name_IDLE_GAME_5;Kristalllegion;Crystal Legion
+scenario_deck_name_meta_test_1;Sofortverlierer (Stein);Instant Loser (Stone)
+scenario_deck_name_sandbox_1;Sandhaufen (Sandbox);Pile of Sand (Sandbox)
+scenario_user_name_sandbox;Sandbox;Sandbox
+scenario_user_name_tutorial;Kristalllegion;Crystal Legion
+scenario_deck_name_tutorial_1;Staubwolke (Tutorial);Dustcloud (Tutorial)
+scenario_type_description_es1v1;Stelle dein Können in einfachen Gefechten gegen andere Spieler auf die Probe.;Test your skills in a casual match against other players.
+scenario_type_description_es2v2;Stellt euer Können in einfachen Gefechten gegen andere Spieler auf die Probe.;Test your skills in a casual match against other players.
+scenario_type_description_esDuel;Fordere einen Freund zu einem ungewertetem Gefecht heraus!;Challenge a friend in a casual match!
+scenario_type_description_esRanked1v1;Stell dich der Herausforderung und kämpfe dich gegen andere Spieler in der Rangliste nach oben.;Prove your skill against other players and climb up the ranking.
+scenario_type_description_esRanked2v2;Stellt euch der Herausforderung und kämpft euch gegen andere Spieler in der Rangliste nach oben.;Prove your skill against other players and climb up the ranking.
+scenario_type_description_esPvE;Verbessere deine Fähigkeiten im Kampf gegen den Computer.;Extend your skills in a match against the computer.
+scenario_Ranked1vs1;1 vs 1 Rangliste;1 vs 1 Ranked
+scenario_Ranked2vs2;2 vs 2 Rangliste;2 vs 2 Ranked
+scenario_1vs1;1 vs 1;1 vs 1
+scenario_2vs2;2 vs 2;2 vs 2
+scenario_sandbox;Sandbox;Sandbox
+scenario_sandbox_classic;Sandbox – Duo;Sandbox – Duo
+scenario_pve_sandbox;Sandbox - Alleine stürmen;Sandbox - Storm Solo
+scenario_pve_sandbox_classic;Sandbox - Gemeinsam stürmen;Sandbox - Storm Duo
+scenario_duel;Duell;Duel
+scenario_performance_test;Leistungstest;Performance Test
+scenario_pvp_bot;PvP gegen KI;PvP against AI
+scenario_IDLE_GAME;Idle Legions;Idle Legions
+scenario_IDLE_GAME_description;Zum Testen des Metagames kann hier ein Deck automatisiert spielen.;For testing the meta game a deck can play automatically here.
+scenario_META_TEST;Sofortsieg;Instawin
+scenario_META_TEST_description;Zum Testen des Metagames wird dieser Modus einen sofortigen Sieg gewähren.;For testing the meta game you can win instantly with this mode.
+scenario_tutorial;Tutorial;Tutorial
+scenario_tutorial_description;Lerne die Grundlagen des Spiels in einem einfachen Gefecht gegen den Computer.\n Stürme die feindliche Golembasis, um den Granitweltenbrecher zu besiegen. Aber beeile dich, er erlangt nach kurzer Zeit die volle Stärke und wird deinen Nexus zerschmettern, wenn du ihm nicht zuvor kommst. Zum Glück verschafft dir die Zerstörung seiner Türme mehr Zeit.;Learn the basics of the game against the ai.\n Storm the enemy golem base to defeat the mighty world breaker, but hurry as he gathers strength to smash your nexus after a short while. Destroying his camps delays this effect.
+scenario_tutorial_new;Tutorial 2.0 – WIP;Tutorial 2.0 – WIP
+scenario_tutorial_new_description;In Arbeit;Work in progress
+scenario_pve_core_test_1;Core Test 1;Core Test 1
+scenario_pve_core_test_1_description;Nexus health and damage vastly increased. Each lane tower shoots a high damage projectile at the Nexus on being build or upgraded.;Nexus health and damage vastly increased. Each lane tower shoots a high damage projectile at the Nexus on being build or upgraded.
+scenario_pve_core_test_2;Core Test 2;Core Test 2
+scenario_pve_core_test_2_description;Each dying lane tower now clears all units surrounding it.;Each dying lane tower now clears all units surrounding it.
+scenario_pve_core_test_3;Core Test 3;Core Test 3
+scenario_pve_core_test_3_description;Lane tower health and damage increased. Now dealing splash as well.;Lane tower health and damage increased. Now dealing splash as well.
+scenario_pve_attack_solo;Alleine stürmen;Storm Solo
+scenario_pve_attack_solo_description;Stürme die feindliche Golembasis, um den Granitweltenbrecher zu besiegen. Aber beeile dich, er erlangt nach kurzer Zeit die volle Stärke und wird deinen Nexus zerschmettern, wenn du ihm nicht zuvor kommst. Zum Glück verschafft dir die Zerstörung seiner Türme mehr Zeit.;Storm the enemy golem base to defeat the mighty world breaker, but hurry as he gathers strength to smash your nexus after a short while. Destroying his camps delays this effect.
+scenario_pve_attack;Gemeinsam stürmen;Storm Duo
+scenario_pve_attack_description;Stürmt die feindliche Golembasis, um den Granitweltenbrecher zu besiegen. Aber eilt euch, er erlangt nach kurzer Zeit die volle Stärke und wird euren Nexus zerschmettern, wenn ihr Ihm nicht zuvor kommt. Zum Glück verschafft euch die Zerstörung seiner Türme mehr Zeit.;Storm the enemy golem base to defeat the mighty world breaker, but hurry as he gathers strength to smash your nexus after a short while. Destroying his camps delays this effect.
+scenario_difficulty_dialog_caption;Schwierigkeitsgrad;Difficulty
+scenario_difficulty_best_time;Persönliche Bestzeit: %s;Personal best time: %s
+scenario_difficulty_1;§league_1;§league_1
+scenario_difficulty_loot_1;+0%;+0%
+scenario_difficulty_loot_hint_1;Dieser Schwierigkeitsgrad bringt keine Boni.;This difficulty doesn't give any bonus.
+scenario_difficulty_2;§league_2;§league_2
+scenario_difficulty_loot_2;+50%;+50%
+scenario_difficulty_loot_hint_2;Dieser Schwierigkeitsgrad bringt 50% mehr Erfahrung und Gold.;This difficulty gives 50% more experience and Credits.
+scenario_difficulty_3;§league_3;§league_3
+scenario_difficulty_loot_3;+100%;+100%
+scenario_difficulty_loot_hint_3;Dieser Schwierigkeitsgrad bringt 100% mehr Erfahrung und Gold.;This difficulty gives 100% more experience and Credits.
+scenario_difficulty_4;§league_4;§league_4
+scenario_difficulty_loot_4;+150%;+150%
+scenario_difficulty_loot_hint_4;Dieser Schwierigkeitsgrad bringt 150% mehr Erfahrung und Gold.;This difficulty gives 150% more experience and Credits.
+scenario_difficulty_5;§league_5;§league_5
+scenario_difficulty_loot_5;+200%;+200%
+scenario_difficulty_loot_hint_5;Dieser Schwierigkeitsgrad bringt 200% mehr Erfahrung und Gold.;This difficulty gives 200% more experience and Credits.
+;;
+starterdeck_black_caption;Schwarz;Black
+starterdeck_black_deck_title;Verderbnis des Nordens;Corruption from the North
+starterdeck_black_propaganda;Sperre deine Feinde im ewigen Eis ein und entreiße ihnen die Seele. Deine Kreaturen der Leere verzehren jegliche Hoffnung, um ihre finsteren Fähigkeiten zu entfesseln. Die Dunkelheit ist allgegenwärtig!;Freeze your enemies and drain their life. Creatures from the void gather souls to unleash sinister abilities upon their foes.
+starterdeck_black_speaker;Lragoth, Rekrutierer der Leere;Lragoth, Recruiter of the Void
+starterdeck_black_description;Die Kernmechaniken der schwarzen Legion legen den Fokus auf Einfrieren der feindlichen Truppen und Entziehen derer Seelen, um damit weitere, vernichtende Fähigkeiten auszulösen. ;The Black Legion's main gameplay mechanics and combos feature a variety of freezing spells and abilities, as well as ripping out the souls of enemy units in order to trigger powerful passive abilities.
+starterdeck_green_caption;Grün;Green
+starterdeck_green_deck_title;Bewahrer der Natur;Keepers of Nature
+starterdeck_green_propaganda;Führe eine Armee aus lebhaften Pflanzen und uralten Bäumen in die Schlacht. Verstricke deine Feinde im Geflecht des Waldes und überschwemme sie mit einer Flut von Saatlingen. Die Natur holt sich alles zurück!;Lead an army of vivid plants and ancient trees into battle. Root your enemies and drown them in a flood of Saplings. Evolve them to become stronger.
+starterdeck_green_speaker;Rithrilas, Älteste des Hains;Rithrilas, Eldest of the Grove
+starterdeck_green_description;Die Kernmechaniken der grünen Legion bestehen aus Regenerationsfähigkeiten, Einschränkung der feindlichen Bewegungsfähigkeit und Horden von Saatlingen, welche zu mächtigen Kreaturen heranwachsen können.;The Green Legion's main gameplay mechanics and combos feature a variety of regeneration effects, rooting your enemies in place and last but not least, hordes of Saplings that can be evolved into powerful creatures. 
+starterdeck_white_caption;Weiß;White
+starterdeck_white_deck_title;Armee des Lichts;Forces of Light
+starterdeck_white_propaganda;Heerscharen von Bogenschützen, ehrwürdige Ritter und himmlische Streitkräfte stehen unter deinem Befehl. Geführt vom Licht haltet ihr allem gemeinsam stand!;Command sacred archers and shiny knights accompanied by angelic forces. Raise your shields and stand strong!
+starterdeck_white_speaker;Trynan, Bibliothekar der Bastion;Trynan, Librarian of the Bastion
+starterdeck_white_description;Die Kernmechaniken der weißen Legion basieren auf einer Vielfalt von Heilungs- und Schutzzaubern, welche auf viele Einheiten gleichzeitig gewirkt werden können. Überwältige deinen Kontrahenten mit zahllosen Reihen aus kleinen Einheiten und verleihe ihnen Inspiration und Schutz durch starke Anführer.;The White Legion's main gameplay mechanics and combos feature a variety of healing and shielding spells that can be targeted at multiple units at once. Overwhelm your opponent with masses of archers and knights and make them survive to the last minute in order to turn the tide of battle.
+starterdeck_dialog_title;Wähle dein Starterdeck!;Choose your starter deck!
+starterdeck_dialog_title2;Alle Starterdecks wurden für dich freigeschaltet!;All starter decks have been unlocked for you!
+starterdeck_redeem_dialog_caption;Starterdeck wirklich wählen?;Are you sure? This choice is final.
+starterdeck_redeem_dialog_text;Die Wahl des Starterdecks kann nicht rückgängig gemacht werden. Von der gewählten Legion werden 8 Karten deinem Kartenpool hinzugefügt.;The choice of your starter deck is final. Eight cards of the chosen legion will be added to your card pool.
+starterdeck_redeem_dialog_redeem;Wählen;Choose
+starterdeck_redeem_dialog_cancel;Abbrechen;Cancel
+;;
+teambuilding_caption;Teamaufbau;Teambuilding
+teambuilding_choose_scenario;Spielmodus;Scenario
+teambuilding_choose_difficulty;Schwierigkeit;Difficulty
+teambuilding_choose_gamemode;Spielmodus wählen;Choose Gamemode
+teambuilding_deck_dialog_caption;Wähle dein Deck!;Choose your deck!
+teambuilding_deck_not_set;Nicht gewählt;Not chosen
+teambuilding_deck_not_chosen;Noch nicht gewählt;Not chosen
+teambuilding_deck_empty;Das Deck ist leer und kann deswegen nicht gewählt werden.;The deck is empty and cannot be chosen.
+teambuilding_empty;Freier Slot;Empty Slot
+teambuilding_invites_pending;%d ausstehende Einladungen;%d pending invites
+teambuilding_inqueue_title;In der Warteschlange;In Queue
+teambuilding_invite_expired;hatte dich zu einem Spiel eingeladen. Die Einladung ist abgelaufen.;invited you to a game, but the invite has expired.
+teambuilding_invite_incoming;hat dich zu einem Spiel eingeladen.;has invited you to a game.
+teambuilding_invite_player;Spieler einladen;Invite player
+teambuilding_invite_status_tiaccepted;Akzeptiert;Accepted
+teambuilding_invite_status_tideclined;Abgelehnt;Declined
+teambuilding_invite_status_tigamenolongerexists;Abgelaufen;Expired
+teambuilding_invite_status_tileftthegame;Verlassen;Quit
+teambuilding_invite_status_tiopen;Ausstehend;Pending
+teambuilding_invite_status_titeamisfull;Voll;Full
+teambuilding_invitelist_caption;Einladungen;Invites
+teambuilding_mode_duel;Duell;Duel
+teambuilding_mode_pve;PvE;PvE
+teambuilding_mode_pvp;PvP;PvP
+teambuilding_mode_pvp_normal;Normal;Normal
+teambuilding_mode_pvp_ranked;Gewertet;Ranked
+teambuilding_qenodecksnotset;Alle Spieler müssen ein Deck wählen.;All players have to chose a deck.
+teambuilding_qenonotleader;Nur der Teamleiter kann das Spiel starten.;Only the team leader can start the game.
+teambuilding_qenoscenarionotset;Der Spielmodus ist noch nicht gewählt.;The game mode is not set.
+teambuilding_qenotoomanyplayers;Es gibt zu viele Spieler für den aktuellen Spielmodus.;There are too many players for the chosen game mode.
+teambuilding_qeNoNotEnoughPlayers;Es gibt zu wenig Spieler für den aktuellen Spielmodus. Lade weitere Freunde ein.;There are not enough players for the chosen game mode. Invite more friends to play.
+teambuilding_qeyes;In die Warteschlange gehen;Go into queue
+teambuilding_queue_count_hint;Spieler in der Warteschlange;Players in queue
+teambuilding_queue_time_hint;Zeit in der Warteschlange;Time in queue
+teambuilding_queue_abort;Abbrechen;Leave queue
+teambuilding_queue_server_full;Die Spieleserver sind momentan überlastet. Es wird auf einen freien Platz gewartet...;The game servers are full. Waiting for a free slot...
+teambuilding_ranked_disabled;Gewertete Spiele sind momentan nicht verfügbar.;Ranked games are currently disabled.
+teambuilding_start_queue;Start;Start
+teambuilding_teamleader;Teamleiter;Teamleader
+;;
+tutorial_game_dialog_caption;Zeit für ein Probespiel!;Tutorial Match
+tutorial_game_dialog_text;Da du zum ersten Mal Rise of Legions spielst, wird nun mit deinem Starterdeck eine Runde gegen den Computer gestartet, um die Kernmechaniken des Spiels kennenzulernen.;Try out your starter deck and learn the basics of the game by playing against a very easy AI opponent!
+tutorial_game_dialog_play;Los geht's!;Let's go!
+tutorial_game_dialog_skip;Überspringen;Skip
+tutorial_slides_next;Nächste;Next
+tutorial_slides_previous;Vorherige;Previous
+tutorial_slides_close;Schließen;Close
+tutorial_text_opener_confirm;Na dann los!;Then go!
+tutorial_text_select_footman;Wähle den §card_name_footman_spawner in deinem Deck aus!;Select the §card_name_footman_spawner in your deck!
+tutorial_text_place_footman;Platziere den Spawner auf dem Baufeld!;Place the spawner at the build grid!
+tutorial_text_spawner_cost;Jeder Spawner kostet Seelengold.;Each spawner cost soul coins.
+tutorial_text_spawner_cost_confirm;Verstanden!;Got it!
+tutorial_text_game_start;Gleich geht''s los! Zu Beginn hat man 10 Sekunden bevor das Spiel beginnt.;The game is starting! At the beginning you have 10 seconds to contemplate and double check you evil plan.
+tutorial_text_game_start_confirm;Endlich!;Finally!
+tutorial_text_spawner_description;Sobald das Spiel beginnt, erschaffen deine Spawner automatisch Einheiten.;While the game is running, your spawners create units automatically.
+tutorial_text_gameplay_description;Deine Einheiten laufen eigenständig zum Gegner und greifen alles auf ihrem Weg an. Du musst ihnen keine Befehle geben!;Your units walk autonomously to the enemy and attack everything on their path. You don't need to give any orders!
+tutorial_text_melee_tower;Gegen den starken Nahkampfturm können unser Schwertkämpfer kaum etwas ausrichten. Beschwöre ein paar Bogenschützen, um ihn aus der Ferne auszuschalten. Mit Beschwörungen kannst du schnell auf gefährliche Situationen reagieren.;Our Footmen don't have any chance against the heavy melee defender. Summon Archers to beat him from distance. Summons enable you to react to dangerous situations.
+tutorial_text_melee_tower_confirm;Aha!;Seems OP!
+tutorial_text_select_archer;Wähle die Bogenschützen-Beschwörung in deinem Deck aus!;Select the archer summoning in your deck!
+tutorial_text_drop_description;Beschwörungen können nur in der grünen Zone platziert werden.;You can only summon units in the green zone.
+tutorial_text_gold_description;Jede Beschwörung kostet Gold, welches du jede Sekunde bekommst.;Each summoning cost coins, which you gain each second.
+tutorial_text_gold_description_confirm;Moneten!;Dough!
+tutorial_text_soul_coin_conversion;Ausgegebenes Gold wird automatisch in Seelengold umgewandelt.;Spent coins are automatically converted into soul coins.
+tutorial_text_soul_coin_conversion_confirm;Klingt gut!;Sounds good!
+tutorial_text_capture_point;Das Team, welches als letztes in der Nähe eines Eroberungspunktes war, nimmt ihn für sich ein.;The last team, which was near a capture point, will slowly capture it.
+tutorial_text_lane_tower;Jeder Wehrturm erweitert das Gebiet in dem du Einheiten beschwören kannst und greift Gegner an.\nZeit um zum nächsten Eroberungspunkt voranzuschreiten!;Each guard tower extends the area to summon units and attacks enemies.\nTime to dominate the next point!
+tutorial_text_lane_tower_confirm;Er ist mein!;He is my!
+tutorial_text_select_ballista;Wähle die Ballisten-Beschwörung in deinem Deck aus!;Select the Ballista summoning in your deck!
+tutorial_text_summoning_sickness;Einheiten sind nach der Beschwörung kurz betäubt und nehmen doppelten Schaden. Achte darauf sie nicht in der Reichweite deiner Gegner zu beschwören.;After being summoned units are stunned shortly and take double damage. Be aware to drop them out of range of your enemies!
+tutorial_text_spell;Die Golemverteidiger könnten deiner Ballista sehr gefährlich werden, besser du schaltest sie mit dem Pfeilhagel aus.\nZauber können im Gegensatz zu Beschwörungen immer auf der ganzen Karte gewirkt werden.;The little golems can be very dangerous for your Ballista. Take them down with a hail of arrows.\nSpells can be cast everywhere on the map.
+tutorial_text_spell_confirm;Muhaha!;Muhaha!
+tutorial_text_select_hail_of_arrows;Wähle den §card_name_hailofarrows in deinem Deck aus!;Select the §card_name_hailofarrows in your deck!
+tutorial_text_cast_spell;Lass Pfeile auf die Golems herabregnen!;Let arrows rain down the golem!
+tutorial_text_next_spawner;Du hast jetzt genügend Seelengold für einen weiteren Spawner.\nSpringe zurück zum Baufeld und baue einen weiteren Spawner.;You own enough soul coins for an additional spawner.\nJump back to the build grid and place another one.
+tutorial_text_next_spawner_confirm;Wird gemacht!;On my way!
+tutorial_text_spawner_jump_to_base;Drücke diesen Knopf oder nutze eine der Schnelltasten (Leertaste / Mittlere Maustaste).;Press this button or use one of the hotkeys (space / middle mouse button).
+tutorial_text_select_heavy_gunner;Wähle den Kanonier-Spawner in deinem Deck aus!;Select the Heavy Gunner in your Deck!
+tutorial_text_place_spawner_2;Platziere den Spawner auf dem Baufeld! Felder mit blauen Kreisen werden demnächst beschworen.;Place the spawner at the build grid! Fields with blue circles are spawned soon.
+tutorial_text_income_upgrade;Du hast mehr als 1500 Seelengold ausgegeben, dadurch erhöht sich dein Einkommen. Du kannst am Balken sehen wie viel du noch ausgeben musst, um noch mehr Gold jede Sekunde zu bekommen.;You spent more than 1500 soul coins and so you income increases. The bar shows you the amount to spent for the next upgrade.
+tutorial_text_income_upgrade_confirm;Mehr Zaster!;More dough!
+tutorial_text_spawner_jump_back;Springe wieder zum Kampf zurück, drücke diesen Knopf oder nutze eine der Schnelltasten (Leertaste / Mittlere Maustaste).;Jump back to the fight! Press this button or use one of the hotkeys (space / middle mouse button).
+tutorial_text_last_outpost;Super! Du hast die Grundlagen schnell gelernt.\nNun übernimm eigenständig die Kontrolle des letzten Außenpostens. Nutze alles was dein Deck zu bieten hat!;Awesome! You got the basics fast.\nNow take over the last outpost on your own. Use everything your deck offers you!
+tutorial_text_last_outpost_confirm;Kinderspiel!;Easy peasy!
+tutorial_text_last_outpost_mark;Auf auf!\nÜbernimm die Kontrolle über diesen Punkt.;Come on!\nTake control of this point.
+tutorial_text_last_outpost_lane;Hier gibt es nichts zu sehen, auch keine Droiden die du suchst. Ab nach vorn zum letzten Außenposten mit dir!;Here is nothing of interest, especially not the droids you are looking for. Go to the last outpost, now!
+tutorial_text_primary_target;Ausgezeichnet! Jetzt ist es Zeit den §card_name_bosssiegegolemtutorial anzugreifen.\nIch erweitere dein Deck mal etwas und gebe dir mehr Gold als erlaubt ist, aber psst verrate es niemanden!;Excellent! Now it is time to defeat the §card_name_bosssiegegolemtutorial.\nI put some cards in your deck and give you more money than allowed, but psst don't tell anyone!
+tutorial_text_primary_target_confirm;Cheater!;Cheater!
+tutorial_text_primary_target_mark;Besiege den §card_name_bosssiegegolemtutorial, um das Spiel zu gewinnen.;Defeat the §card_name_bosssiegegolemtutorial to win the game.
+;;
+core_game_commencing;Warte auf Spieler...;Waiting for players...
+core_gold_hint;Gold ist die Action-Ressource mit der du Beschwörungen und Zauber durchführen kannst. Du erhältst es jede Sekunde in Höhe der aktuellen Einkommensrate. Wenn du das Maximum erreicht hast, wird dein Gold direkt in Seelengold umgewandelt.;Coins are used to summon units and cast spells. You gain coins every second by your income rate. If you reach the maximum amount, any additional income is automatically converted into soul coins.
+core_wood_hint;Seelengold ist die Strategie-Ressource mit der du Spawner bauen kannst. Für jedes ausgegebene Gold erhältst du die gleiche Menge an Seelengold.;Soul Coins are used to build spawners. Each coin you spend leaves a Soul Coin behind. 
+core_income_hint;Dein Einkommen erhöht automatisch sich sobald du genügend Seelengold für Spawner ausgegeben hast, um die Leiste zu füllen. Das Einkommen erhöht sich maximal 10 mal.;You income is increased automatically, when you spent enough Soul Coins for spawners to fill the bar. The income can only be upgraded 10 times.
+core_pve_attack_time_to_attack_hint;Nach Ablauf der Zeit erwacht der Granitweltenbrecher und entfesselt einen unaufhaltsamen Steinhagel auf deinen Nexus, dem dieser nicht lange standhalten kann. ;After expiration the Granite Worldbreaker awakes and hurls mighty stones at your Nexus, destroying it very quickly.
+core_pve_attack_time_to_attack_expired_hint;Der Granitweltenbrecher ist erwacht und deine Zeit wird knapp! Besiege ihn schnell oder zerstöre seine Kristalltürme um mehr Zeit zu gewinnen.;The Granite Worldbreaker is now awake and your time runs out! Defeat him fast or destroy his Crystal Towers to gain more time.
+core_pve_attack_tower_count_hint;Zerstöre die Kristalltürme der Golems, um den Granitweltenbrecher am Erwachen zu hindern und mehr Zeit zu gewinnen.;Destroy the Crystal Towers of the Golems to prevent the Granite Worldbreaker from awakening and to gain more time.
+core_pve_attack_tower_count_empty_hint;Du hast alle Kristalltürme der Golems zerstört, nun vernichte den Granitweltenbrecher bevor er deinen Nexus zerstört!;You destroyed all Crystal Towers of the Golems! Now defeat the Granite Worldbreaker before he destroys your Nexus!
+core_pve_attack_time_to_boss_wave_hint;Immer wenn diese Zeit abläuft entsenden die Golems eine größere Welle an Einheiten um dich zu überwältigen. Bereite dich vor!;Every time this timer expires the Golems are sending a big wave of units to overcome you. Be prepared!
+core_pve_attack_time_to_boss_wave_empty;—;—
+core_pve_attack_time_to_boss_wave_empty_hint;Du hast alle größeren Wellen der Golem überstanden, es werden keine weiteren entsandt werden.;You survived all big waves of the golems. There will be no more of them.
+core_reconnect_dialog_caption;Verbindung verloren;Connection lost
+core_reconnect_dialog_message;Versuche wiederzuverbinden…;Attempting to reconnect…
+core_shortcuts;- Tastaturbelegung -\n\nWASD / Pfeiltasten -\nKamera bewegen\n\nLeertaste / Mittlere Maustaste -\nWechsel zwischen Basis und aktueller Kameraposition\n\nZahlen 1 bis 0 -\nKarte aus Deck auswählen;- Shortcuts -\nWASD / Arrows - Move camera\nSpace / Middle mouse button - Switch between current position and base\nNumbers 1 to 0 - Pick card from deck
+core_spawner_jump;Wechsel zwischen Basis und aktueller Kameraposition;Switch between current position and base
+backtogame;Zurück zum Spiel;Back to game
+incomeupgradebutton;-Einkommen erhöhen-\nErhöht das Einkommen um 2 pro Sekunde.;-Increase Income-\nIncreases the income by 2 per second.
+scoreboard;Spielstatus;Scoreboard
+surrender;Aufgeben;Surrender
